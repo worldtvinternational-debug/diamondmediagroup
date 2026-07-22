@@ -1,0 +1,1426 @@
+/*==================================================
+  DIAMOND MEDIA GROUP
+  Version 1.0
+----------------------------------------------------
+TABLE OF CONTENTS
+
+01. Variables
+02. Reset
+03. Typography
+04. Layout
+05. Section Components
+06. Buttons
+07. Utilities
+08. Navigation
+09. Hero
+10. Cards
+11. Icon Box
+==================================================*/
+
+
+/*==================================================
+01. VARIABLES
+==================================================*/
+
+:root{
+
+    /* Brand Colours */
+    --bg:#0b1018;
+    --bg-alt:#101827;
+    --card:#182233;
+
+    --gold:#d4af37;
+    --gold-light:#f2d46a;
+
+    --text:#d7dde8;
+    --muted:#9aa5b5;
+    --white:#ffffff;
+
+    --success:#2ecc71;
+    --danger:#e74c3c;
+
+    /* Typography */
+    --heading-font:"Cinzel",serif;
+    --body-font:"Poppins",sans-serif;
+
+    /* Layout */
+    --container:1320px;
+    --navbar-height:90px;
+
+    --radius:20px;
+
+    --border:rgba(255,255,255,.08);
+
+--overlay:rgba(11,16,24,.20);
+--overlay-dark:rgba(11,16,24,.35);
+
+    --shadow:0 20px 45px rgba(0,0,0,.35);
+
+    --transition:.35s ease;
+
+}
+
+
+/*==================================================
+02. RESET
+==================================================*/
+
+*,
+*::before,
+*::after{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:var(--body-font);
+    background:var(--bg);
+    color:var(--text);
+
+    line-height:1.75;
+
+    overflow-x:hidden;
+
+    -webkit-font-smoothing:antialiased;
+
+}
+
+img{
+
+    display:block;
+    max-width:100%;
+    height:auto;
+
+}
+
+a{
+
+    color:inherit;
+    text-decoration:none;
+    transition:var(--transition);
+
+}
+
+a:hover{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+
+
+/*==================================================
+03. TYPOGRAPHY
+==================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:var(--heading-font);
+
+    color:var(--white);
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    margin-bottom:1rem;
+
+}
+
+h1{
+
+    font-size:clamp(3rem,6vw,5rem);
+
+}
+
+h2{
+
+    font-size:clamp(2.2rem,5vw,3.5rem);
+
+}
+
+h3{
+
+    font-size:1.75rem;
+
+}
+
+h4{
+
+    font-size:1.3rem;
+
+}
+
+p{
+
+    color:var(--text);
+    margin-bottom:1.25rem;
+
+}
+
+.lead{
+
+    font-size:1.2rem;
+    font-weight:300;
+    max-width:820px;
+
+}
+
+
+/*==================================================
+04. LAYOUT
+==================================================*/
+
+.container{
+
+    max-width:var(--container);
+
+}
+
+.section-padding{
+
+    padding:110px 0;
+
+}
+
+.bg-dmg{
+
+    background:var(--bg);
+
+}
+
+.bg-dmg-alt{
+
+    background:var(--bg-alt);
+
+}
+
+.bg-card{
+
+    background:var(--card);
+
+}
+
+
+/*==================================================
+05. SECTION COMPONENTS
+==================================================*/
+
+.section-tag{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:var(--gold);
+
+    font-size:.82rem;
+
+    font-weight:600;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.section-title{
+
+    margin-bottom:25px;
+
+}
+
+.section-divider{
+
+    width:90px;
+
+    height:3px;
+
+    margin:25px auto;
+
+    border-radius:50px;
+
+    background:var(--gold);
+
+}
+
+
+/*==================================================
+06. BUTTONS
+==================================================*/
+
+.btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:.5rem;
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn:focus{
+
+    box-shadow:none;
+
+}
+
+.btn-gold{
+
+    background:var(--gold);
+
+    color:#111;
+
+    border:none;
+
+}
+
+.btn-gold:hover{
+
+    background:var(--gold-light);
+
+    color:#111;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(212,175,55,.35);
+
+}
+
+.btn-outline-light{
+
+    border:2px solid rgba(255,255,255,.65);
+
+    color:#fff;
+
+    background:transparent;
+
+}
+
+.btn-outline-light:hover{
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+
+/*==================================================
+07. UTILITIES
+==================================================*/
+
+.text-gold{
+
+    color:var(--gold)!important;
+
+}
+
+.text-muted{
+
+    color:var(--muted)!important;
+
+}
+
+.rounded-xl{
+
+    border-radius:var(--radius);
+
+}
+
+.shadow-dmg{
+
+    box-shadow:var(--shadow);
+
+}
+
+.py-120{
+
+    padding:120px 0;
+
+}
+
+.mb-40{
+
+    margin-bottom:40px;
+
+}
+
+.mt-40{
+
+    margin-top:40px;
+
+}
+
+
+/*==================================================
+08. NAVIGATION
+==================================================*/
+
+.navbar{
+
+    min-height:var(--navbar-height);
+
+    background:rgba(11,16,24,.95);
+
+    backdrop-filter:blur(14px);
+
+    padding:1rem 0;
+
+    transition:var(--transition);
+
+    z-index:1030;
+
+}
+
+.navbar.scrolled{
+
+    background:var(--bg);
+
+    padding:.75rem 0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+.navbar-brand img{
+
+    height: 110px;px;
+
+    width:auto;
+
+    transition:var(--transition);
+
+}
+
+.navbar-nav{
+
+    gap:.5rem;
+
+}
+
+.navbar-nav .nav-link{
+
+    color:var(--text);
+
+    position:relative;
+
+    padding:.75rem 1rem;
+
+    font-weight:500;
+
+    letter-spacing:.4px;
+
+    transition:var(--transition);
+
+}
+
+.navbar-nav .nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:1rem;
+
+    bottom:.35rem;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--gold);
+
+    transition:var(--transition);
+
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+
+    color:var(--gold-light);
+
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after{
+
+    width:calc(100% - 2rem);
+
+}
+
+.navbar-toggler{
+
+    border:none;
+
+    box-shadow:none;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
+.navbar .container{
+
+    display:flex;
+    align-items:center;
+
+}
+
+
+/*==================================================
+09. HERO
+==================================================*/
+
+.hero,
+.hero-about,
+.hero-video-only{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    overflow:hidden;
+    .hero-content{
+    margin-top:80px;
+}
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-about{
+    display:flex;
+    align-items:center;
+    color:var(--white);
+}
+
+.hero-video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(.85);
+    z-index:0;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        rgba(11,16,24,.20),
+        rgba(11,16,24,.35)
+    );
+    z-index:1;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    padding:0 20px;
+}
+
+.hero h1{
+    margin-bottom:1.5rem;
+}
+
+.hero p{
+    max-width:760px;
+    margin:0 auto 2rem;
+    font-size:1.2rem;
+}
+
+
+/*==================================================
+10. CARDS
+==================================================*/
+
+.dmg-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    height:100%;
+
+    padding:2.5rem;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    background:var(--card);
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.dmg-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(212,175,55,.35);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.45);
+
+}
+
+.dmg-card i{
+
+    margin-bottom:1.5rem;
+
+    color:var(--gold);
+
+    font-size:2.2rem;
+
+}
+
+.dmg-card h3{
+
+    margin-bottom:1rem;
+
+}
+
+.dmg-card p{
+
+    margin-bottom:0;
+
+}
+
+
+/*==================================================
+11. ICON BOX
+==================================================*/
+
+.icon-box{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:72px;
+
+    height:72px;
+
+    margin:0 auto 1.5rem;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.12);
+
+    color:var(--gold);
+
+    font-size:1.8rem;
+
+}
+/*==================================================
+12. ABOUT HERO
+==================================================*/
+
+.hero-about{
+    position:relative;
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    overflow:hidden;
+    color:var(--white);
+}
+
+.hero-video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(.75);
+    z-index:-2;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        var(--overlay),
+        var(--overlay-dark)
+    );
+    z-index:-1;
+}
+
+.hero-title{
+    line-height:1.1;
+}
+
+.hero-lead{
+    max-width:760px;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:.65rem 1.2rem;
+    border:1px solid rgba(212,175,55,.35);
+    border-radius:50px;
+    background:rgba(212,175,55,.08);
+    color:var(--gold-light);
+    font-size:.8rem;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+
+/*==================================================
+13. HERO STATISTICS
+==================================================*/
+
+.hero-stats{
+    margin-top:3rem;
+}
+
+.hero-stat{
+    height:100%;
+    padding:1.5rem;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:var(--radius);
+    background:rgba(255,255,255,.04);
+    backdrop-filter:blur(12px);
+    text-align:center;
+}
+
+.hero-stat h3{
+    margin-bottom:.4rem;
+    color:var(--gold);
+    font-size:2rem;
+}
+
+.hero-stat span{
+    display:block;
+    color:var(--text);
+    font-size:.9rem;
+}
+
+
+/*==================================================
+14. SCROLL INDICATOR
+==================================================*/
+
+.scroll-indicator{
+    position:absolute;
+    left:50%;
+    bottom:35px;
+    transform:translateX(-50%);
+    z-index:5;
+}
+
+.scroll-indicator a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:54px;
+    height:54px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    color:var(--gold);
+    backdrop-filter:blur(10px);
+    transition:var(--transition);
+}
+
+.scroll-indicator a:hover{
+    transform:translateY(-4px);
+    background:rgba(212,175,55,.18);
+}
+
+.scroll-indicator i{
+    font-size:1.3rem;
+}
+
+
+/*==================================================
+15. ABOUT SECTION
+==================================================*/
+
+.about-stat{
+    height:100%;
+    padding:1.5rem;
+    border-left:4px solid var(--gold);
+    border-radius:0 var(--radius) var(--radius) 0;
+    background:var(--card);
+    box-shadow:var(--shadow);
+}
+
+.about-stat h3{
+    margin-bottom:.4rem;
+    color:var(--gold);
+    font-size:1.6rem;
+}
+
+.about-stat span{
+    display:block;
+    color:var(--text);
+    font-size:.95rem;
+    line-height:1.5;
+}
+
+.dmg-image{
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+}
+
+
+/*==================================================
+16. BRAND CARDS
+==================================================*/
+
+.brand-card{
+    height:100%;
+    padding:2.5rem;
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    background:var(--card);
+    text-align:center;
+    box-shadow:var(--shadow);
+    transition:var(--transition);
+}
+
+.brand-card:hover{
+    transform:translateY(-8px);
+    border-color:rgba(212,175,55,.35);
+}
+
+.brand-logo{
+    width:90px;
+    height:auto;
+    margin:0 auto 1.5rem;
+}
+
+.brand-icon{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:82px;
+    height:82px;
+    margin-bottom:1.5rem;
+    border-radius:50%;
+    background:rgba(212,175,55,.12);
+    color:var(--gold);
+    font-size:2rem;
+}
+
+.brand-card h4{
+    margin-bottom:1rem;
+}
+
+.brand-card p{
+    margin-bottom:0;
+}
+/*==================================================
+17. LEADERSHIP
+==================================================*/
+
+.leader-photo{
+    overflow:hidden;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+}
+
+.leader-photo img{
+    width:100%;
+    display:block;
+}
+
+
+/*==================================================
+18. TIMELINE
+==================================================*/
+
+.timeline-section{
+    padding:5rem 0;
+    background:var(--bg-alt);
+}
+
+.timeline-card,
+.featured-timeline-card{
+
+    padding:3rem;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    background:var(--card);
+
+    box-shadow:var(--shadow);
+
+}
+
+.featured-timeline-card{
+
+    border-color:rgba(212,175,55,.25);
+
+}
+
+.timeline-year{
+
+    display:inline-block;
+
+    margin-bottom:1rem;
+
+    padding:.45rem 1rem;
+
+    border-radius:50px;
+
+    background:rgba(212,175,55,.12);
+
+    color:var(--gold);
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+}
+
+.timeline-highlight{
+
+    display:inline-block;
+
+    padding:.75rem 1.2rem;
+
+    border-left:4px solid var(--gold);
+
+    border-radius:0 .75rem .75rem 0;
+
+    background:rgba(212,175,55,.08);
+
+    color:var(--gold-light);
+
+    font-weight:500;
+
+}
+
+.timeline-caption{
+
+    margin-top:1rem;
+
+    color:var(--muted);
+
+    font-size:.9rem;
+
+    text-align:center;
+
+}
+
+
+/*==================================================
+19. ARCHIVE
+==================================================*/
+
+.archive-thumb{
+
+    width:100%;
+
+    border-radius:14px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.archive-thumb:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.archive-link{
+
+    margin-top:2rem;
+
+    padding:1.5rem;
+
+    border-left:4px solid var(--gold);
+
+    border-radius:0 var(--radius) var(--radius) 0;
+
+    background:rgba(255,255,255,.03);
+
+}
+
+.archive-link strong{
+
+    display:block;
+
+    margin-bottom:1rem;
+
+    color:var(--gold);
+
+}
+
+.archive-link ul{
+
+    margin:0;
+
+    padding-left:1.2rem;
+
+    list-style:disc;
+
+}
+
+.archive-link li{
+
+    margin-bottom:.5rem;
+
+}
+
+.archive-link a{
+
+    color:var(--text);
+
+}
+
+.archive-link a:hover{
+
+    color:var(--gold-light);
+
+}
+
+
+/*==================================================
+20. MEDIA
+==================================================*/
+
+.ratio iframe{
+
+    border:none;
+
+    border-radius:var(--radius);
+
+}
+/*==================================================
+21. CALL TO ACTION
+==================================================*/
+
+.cta-section{
+    position:relative;
+    text-align:center;
+}
+
+.cta-section .section-title{
+    max-width:900px;
+    margin:0 auto 1.5rem;
+}
+
+.cta-section .lead{
+    max-width:760px;
+    margin:0 auto 2.5rem;
+}
+
+
+/*==================================================
+22. FOOTER
+==================================================*/
+
+.footer{
+    background:var(--bg);
+    border-top:1px solid var(--border);
+    color:var(--muted);
+}
+
+.footer a{
+    color:inherit;
+}
+
+.footer a:hover{
+    color:var(--gold);
+}
+
+.footer-logo{
+    max-width:180px;
+    margin-bottom:1.5rem;
+}
+
+.footer-title{
+    color:var(--white);
+    margin-bottom:1rem;
+}
+
+.footer-bottom{
+    margin-top:3rem;
+    padding-top:2rem;
+    border-top:1px solid rgba(255,255,255,.08);
+    text-align:center;
+    font-size:.9rem;
+}
+
+
+/*==================================================
+23. ANIMATIONS
+==================================================*/
+
+.dmg-card,
+.brand-card,
+.archive-thumb,
+.btn,
+.nav-link,
+.hero-stat{
+    transition:var(--transition);
+}
+
+.dmg-card:hover,
+.brand-card:hover{
+    transform:translateY(-8px);
+}
+
+img{
+    user-select:none;
+}
+
+
+/*==================================================
+24. RESPONSIVE
+==================================================*/
+
+@media (max-width:991.98px){
+
+    .section-padding{
+        padding:90px 0;
+    }
+
+    .hero,
+    .hero-about{
+        min-height:auto;
+        padding:140px 0 100px;
+    }
+
+    .hero-title{
+        font-size:clamp(2.5rem,8vw,4rem);
+    }
+
+    .timeline-card,
+    .featured-timeline-card{
+        padding:2rem;
+    }
+
+    .brand-card,
+    .dmg-card{
+        padding:2rem;
+    }
+
+    .navbar-nav{
+        padding-top:1rem;
+        gap:.25rem;
+    }
+
+}
+
+@media (max-width:767.98px){
+
+    .section-padding{
+        padding:75px 0;
+    }
+
+    .hero p,
+    .hero-lead,
+    .lead{
+        font-size:1.05rem;
+    }
+
+    .hero-stat{
+        padding:1.25rem;
+    }
+
+    .about-stat{
+        text-align:center;
+        border-left:none;
+        border-top:4px solid var(--gold);
+        border-radius:var(--radius);
+    }
+
+    .timeline-card,
+    .featured-timeline-card{
+        padding:1.5rem;
+    }
+
+    .scroll-indicator{
+        display:none;
+    }
+
+}
+
+@media (max-width:575.98px){
+
+    h1{
+        font-size:2.6rem;
+    }
+
+    h2{
+        font-size:2rem;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+    .hero-stat h3{
+        font-size:1.6rem;
+    }
+
+}
+/*==================================================
+PROJECTS HERO FIX
+==================================================*/
+
+.hero-video-only{
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+
+.hero-video-only .hero-video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:0;
+}
+
+.hero-video-only .hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(11,16,24,.25);
+    z-index:1;
+}
+
+.hero-video-only + section{
+    position:relative;
+    z-index:2;
+    background:var(--bg);
+    margin-top:0;
+    padding-top:6rem;
+}
+
+/*==================================================
+ABOUT PAGE REFINEMENT
+==================================================*/
+
+/* Section backgrounds */
+
+.hero-about{
+    background:#0b1018;
+}
+
+#about-company{
+    background:#101827;
+}
+
+.bg-dmg{
+    background:#101827;
+}
+
+.bg-dmg-alt{
+    background:#182233;
+}
+
+/* Alternate section shading */
+
+.bg-dmg:nth-of-type(even){
+    background:#182233;
+}
+
+/* Better breathing room */
+
+.section-padding{
+    padding:7rem 0;
+}
+
+/* Subtle section divider */
+
+.bg-dmg,
+.bg-dmg-alt{
+
+    position:relative;
+}
+
+.bg-dmg::before,
+.bg-dmg-alt::before{
+
+    content:"";
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:120px;
+    height:1px;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(212,175,55,.65),
+        transparent
+    );
+}
+
+/* About stats */
+
+.about-stat{
+
+    background:rgba(255,255,255,.03);
+    border:1px solid rgba(212,175,55,.18);
+    border-radius:18px;
+    padding:1.75rem;
+    text-align:center;
+
+    transition:.35s;
+}
+
+.about-stat:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#d4af37;
+
+    box-shadow:0 18px 40px rgba(0,0,0,.35);
+}
+
+/* Brand cards */
+
+.brand-card{
+
+    background:#182233;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    border-radius:20px;
+
+    padding:2.5rem;
+
+    transition:.35s;
+}
+
+.brand-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#d4af37;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+/* Leadership photo */
+
+.leader-photo{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    border:2px solid rgba(212,175,55,.35);
+
+    box-shadow:0 30px 60px rgba(0,0,0,.45);
+}
+
+.leader-photo img{
+
+    transition:.6s;
+}
+
+.leader-photo:hover img{
+
+    transform:scale(1.04);
+}
+
+/* Values cards */
+
+.dmg-card{
+
+    background:#182233;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    border-radius:20px;
+
+    transition:.35s;
+}
+
+.dmg-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#d4af37;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+/* CTA */
+
+section:last-of-type{
+
+    background:linear-gradient(
+        180deg,
+        #101827 0%,
+        #0b1018 100%
+    );
+}
+.hero-content{
+    padding-top:160px;
+}
+/* Hero Background Video */
+.hero-video video{
+    filter: brightness(1.15) contrast(1.08) saturate(1.08);
+}
+.hero-video video{
+    filter:
+        brightness(1.18)
+        contrast(1.10)
+        saturate(1.15);
+}
+.hero video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+    filter: brightness(1.18) contrast(1.10) saturate(1.15);
+}
