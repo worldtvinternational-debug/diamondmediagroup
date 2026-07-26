@@ -1424,3 +1424,98 @@ section:last-of-type{
 
     filter: brightness(1.18) contrast(1.10) saturate(1.15);
 }
+<div class="col-lg-6 col-xl-4 mb-4">
+
+    <div class="newsroom-card h-100">
+
+        <div class="card-body d-flex flex-column">
+
+            <span class="badge bg-warning text-dark mb-3">
+                PRESS RELEASE
+            </span>
+
+            <small class="text-secondary mb-2">
+
+                25 July 2026 • DMG-PR-2026-006
+
+            </small>
+
+            <h4 class="mb-3">
+
+                Travel Radio Australia Granted Media Accreditation
+
+            </h4>
+
+            <p class="flex-grow-1">
+
+                Diamond Media Group announces that Travel Radio Australia
+                has received official media accreditation to cover the
+                Australia & New Zealand Disaster Management Committee
+                Conference.
+
+            </p>
+
+            <div class="d-grid gap-2">
+
+                <a href="assets/pdf/DMG-Branded-Travel-Radio-ANZDMC-Conference-Press-Release.pdf"
+                   class="btn btn-gold"
+                   target="_blank">
+
+                    <i class="bi bi-file-earmark-pdf-fill me-2"></i>
+
+                    Download PDF
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Press Centre | Diamond Media Group</title>
+
+<meta name="description"
+content="Official Press Centre of Diamond Media Group featuring media releases, production news, international partnerships, film, television and radio projects.">
+
+<meta name="keywords"
+content="Diamond Media Group, Press Centre, Newsroom, Media Releases, Television, Film, Travel Radio Australia, SKI TV">
+
+<meta name="author"
+content="Diamond Media Group">
+
+<link rel="icon"
+href="assets/images/favicon.png">
+
+<!-- Bootstrap -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+rel="stylesheet">
+
+<!-- Google Fonts -->
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<style>
