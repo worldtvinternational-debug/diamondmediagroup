@@ -6,13 +6,12 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Diamond Media Group | Newsroom</title>
 
 <meta name="description"
-content="Official Diamond Media Group Newsroom featuring media releases, corporate news and press resources.">
+content="Official Diamond Media Group Newsroom featuring corporate news, media releases and press resources.">
 
 <link rel="preconnect"
 href="https://fonts.googleapis.com">
@@ -36,10 +35,9 @@ href="assets/css/press-centre.css">
 </head>
 
 <body>
-
-<!-- ======================================
+   <!-- ===========================================================
 TOP BAR
-====================================== -->
+=========================================================== -->
 
 <header class="topbar">
 
@@ -65,7 +63,7 @@ alt="Diamond Media Group">
 
 <li><a href="about.html">About</a></li>
 
-<li><a href="news-v3.html" class="active">Newsroom</a></li>
+<li><a href="news.html" class="active">Newsroom</a></li>
 
 <li><a href="mediakit.html">Media Kit</a></li>
 
@@ -80,26 +78,19 @@ alt="Diamond Media Group">
 </div>
 
 </header>
-
-<!-- ======================================
+<!-- ===========================================================
 HERO
-====================================== -->
+=========================================================== -->
 
 <section class="hero">
 
-<video autoplay muted loop playsinline class="hero-video">
-
-<source src="assets/video/airshow.mp4"
-
-type="video/mp4">
-
-</video>
-
-<div class="hero-overlay"></div>
-
 <div class="container">
 
-<div class="hero-content">
+<div class="hero-grid">
+
+<!-- LEFT SIDE -->
+
+<div class="hero-left">
 
 <span class="hero-tag">
 
@@ -109,7 +100,9 @@ OFFICIAL NEWSROOM
 
 <h1>
 
-Diamond Media Group Newsroom
+Diamond Media Group
+
+<span>NEWSROOM</span>
 
 </h1>
 
@@ -142,7 +135,7 @@ Latest News
 
 <a href="mediakit.html"
 
-class="btn btn-dark">
+class="btn btn-gold">
 
 Media Kit
 
@@ -152,12 +145,32 @@ Media Kit
 
 </div>
 
+
+
+<!-- RIGHT SIDE -->
+
+<div class="hero-right">
+
+<video autoplay muted loop playsinline>
+
+<source src="assets/video/airshow.mp4"
+
+type="video/mp4">
+
+</video>
+
+<div class="hero-gradient"></div>
+
+</div>
+
+</div>
+
 </div>
 
 </section>
-<!-- ======================================
-LIVE NEWS TICKER
-====================================== -->
+<!-- ===========================================================
+LIVE NEWS
+=========================================================== -->
 
 <section class="breaking-news">
 
@@ -175,7 +188,7 @@ LIVE NEWS
 
 <div class="ticker-track">
 
-Travel Radio Australia receives Pacific Airshow accreditation • Diamond Media Group launches Corporate Media Kit • SKI TV expands international partnerships • Diamond Film Productions continues development of The Pensioner Gang • Travel Radio Australia website launches
+Travel Radio Australia receives Pacific Airshow accreditation • Diamond Media Group launches Corporate Media Kit • SKI TV expands international partnerships • Diamond Film Productions continues development • Travel Radio Australia website now live
 
 </div>
 
@@ -184,28 +197,21 @@ Travel Radio Australia receives Pacific Airshow accreditation • Diamond Media 
 </div>
 
 </section>
+<!-- ===========================================================
+FEATURED STORY + LATEST RELEASES
+=========================================================== -->
 
-<!-- ======================================
-FEATURED STORY
-====================================== -->
-
-<section class="featured-story">
+<section class="featured-news">
 
 <div class="container">
 
-<div class="row align-items-center">
+<div class="row g-5">
 
-<div class="col-lg-6">
+<!-- ===========================================================
+FEATURED STORY
+=========================================================== -->
 
-<img src="assets/images/pacificairshow1.png"
-
-class="featured-image img-fluid"
-
-alt="Pacific Airshow Gold Coast">
-
-</div>
-
-<div class="col-lg-6">
+<div class="col-lg-7">
 
 <span class="section-tag">
 
@@ -219,29 +225,31 @@ Travel Radio Australia Receives Official Pacific Airshow Accreditation
 
 </h2>
 
-<p>
+<p class="lead-text">
 
-Travel Radio Australia has been granted official media accreditation for
-the 2026 Pacific Airshow Gold Coast.
-
-Our team will provide interviews,
-radio broadcasts,
-digital reporting,
-photography and behind-the-scenes coverage throughout the event.
+Travel Radio Australia has been officially accredited to provide
+broadcast, podcast, photography, digital and multimedia coverage
+of the Pacific Airshow Gold Coast 2026.
 
 </p>
 
-<ul class="feature-list">
+<div class="featured-image">
 
-<li>✔ Official Media Accreditation</li>
+<img src="assets/images/pacificairshow2.png"
 
-<li>✔ Travel Radio Australia Coverage</li>
+alt="Pacific Airshow Gold Coast">
 
-<li>✔ Interviews & Multimedia Reporting</li>
+</div>
 
-<li>✔ Exclusive Behind-the-Scenes Access</li>
+<p>
 
-</ul>
+Coverage will include exclusive interviews,
+behind-the-scenes access,
+destination reporting,
+aviation features
+and multimedia content throughout the event.
+
+</p>
 
 <div class="hero-buttons">
 
@@ -257,7 +265,7 @@ Download Press Release
 
 <a href="#press"
 
-class="btn btn-dark">
+class="btn btn-gold">
 
 More News
 
@@ -267,14 +275,158 @@ More News
 
 </div>
 
+<!-- ===========================================================
+LATEST RELEASES
+=========================================================== -->
+
+<div class="col-lg-5">
+
+<div class="latest-news-panel">
+
+<h3>
+
+Latest Releases
+
+</h3>
+
+<!-- ITEM -->
+
+<div class="news-item">
+
+<span class="release-category corporate">
+
+CORPORATE
+
+</span>
+
+<h4>
+
+Diamond Media Group launches Corporate Media Kit
+
+</h4>
+
+<p>
+
+The official media kit is now available for download.
+
+</p>
+
+<a href="mediakit.html"
+
+class="archive-btn">
+
+Read More
+
+</a>
+
+</div>
+
+<!-- ITEM -->
+
+<div class="news-item">
+
+<span class="release-category travel">
+
+TRAVEL
+
+</span>
+
+<h4>
+
+Travel Radio Australia Website Launch
+
+</h4>
+
+<p>
+
+Australia's travel broadcaster launches its new website.
+
+</p>
+
+<a href="#"
+
+class="archive-btn">
+
+Read Story
+
+</a>
+
+</div>
+
+<!-- ITEM -->
+
+<div class="news-item">
+
+<span class="release-category television">
+
+SKI TV
+
+</span>
+
+<h4>
+
+SKI TV expands international discussions
+
+</h4>
+
+<p>
+
+Discussions continue with resorts and tourism partners.
+
+</p>
+
+<a href="#"
+
+class="archive-btn">
+
+Read Story
+
+</a>
+
+</div>
+
+<!-- ITEM -->
+
+<div class="news-item">
+
+<span class="release-category film">
+
+FILM
+
+</span>
+
+<h4>
+
+Diamond Film Productions development update
+
+</h4>
+
+<p>
+
+The Pensioner Gang continues towards production.
+
+</p>
+
+<a href="#"
+
+class="archive-btn">
+
+Read Story
+
+</a>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
-<!-- ======================================
-LATEST PRESS RELEASES
-====================================== -->
+<!-- ===========================================================
+PRESS RELEASE ARCHIVE
+=========================================================== -->
 
 <section class="press-archive" id="press">
 
@@ -282,43 +434,46 @@ LATEST PRESS RELEASES
 
 <div class="section-title">
 
-<span>LATEST RELEASES</span>
+<span>PRESS RELEASE ARCHIVE</span>
 
 <h2>
 
-Latest Press Releases
+Official Press Releases
 
 </h2>
 
 <p>
 
-Official media releases, announcements and company news from Diamond Media Group.
+Browse the latest Diamond Media Group corporate announcements,
+industry news and media releases.
 
 </p>
 
 </div>
 
-<div class="news-feed">
+<div class="row g-4">
 
-<!-- ====================================== -->
+<!-- =========================================== -->
 
-<article class="release-card featured">
+<div class="col-lg-4">
 
-<div class="release-image">
+<div class="archive-card">
 
-<img src="assets/images/pacificairshow2.png"
-
-alt="Pacific Airshow">
-
-</div>
-
-<div class="release-content">
+<div class="archive-top">
 
 <span class="release-category media">
 
-MEDIA RELEASE
+MEDIA
 
 </span>
+
+<span class="release-date">
+
+4 August 2026
+
+</span>
+
+</div>
 
 <h3>
 
@@ -328,38 +483,15 @@ Travel Radio Australia Receives Pacific Airshow Accreditation
 
 <p>
 
-Travel Radio Australia has officially received media accreditation
-for Pacific Airshow Gold Coast 2026 and will provide radio,
-podcast,
-digital and multimedia coverage throughout the event.
+Official media release announcing accreditation for Pacific Airshow Gold Coast 2026.
 
 </p>
-
-<div class="release-meta">
-
-<span>
-
-<i class="far fa-calendar"></i>
-
-4 August 2026
-
-</span>
-
-<span>
-
-DMG-PR-2026-006
-
-</span>
-
-</div>
-
-<div class="release-buttons">
 
 <a href="assets/pdf/Pacific-Airshow-Gold-Coast-2026-Media-Release.pdf"
 
 target="_blank"
 
-class="btn btn-gold">
+class="archive-btn">
 
 Download PDF
 
@@ -369,13 +501,13 @@ Download PDF
 
 </div>
 
-</article>
+<!-- =========================================== -->
 
-<!-- ====================================== -->
+<div class="col-lg-4">
 
-<article class="release-card">
+<div class="archive-card">
 
-<div class="release-content">
+<div class="archive-top">
 
 <span class="release-category corporate">
 
@@ -383,47 +515,45 @@ CORPORATE
 
 </span>
 
+<span class="release-date">
+
+5 August 2026
+
+</span>
+
+</div>
+
 <h3>
 
-Diamond Media Group Launches New Corporate Media Kit
+Diamond Media Group Corporate Media Kit Released
 
 </h3>
 
 <p>
 
-The official Media Kit is now available online featuring executive
-profiles,
-company information,
-logos,
-photography and media resources.
+Official corporate media kit now available for journalists and partners.
 
 </p>
-
-<div class="release-meta">
-
-<span>5 August 2026</span>
-
-<span>DMG-PR-2026-005</span>
-
-</div>
-
-</div>
 
 <a href="mediakit.html"
 
 class="archive-btn">
 
-View
+View Media Kit
 
 </a>
 
-</article>
+</div>
 
-<!-- ====================================== -->
+</div>
 
-<article class="release-card">
+<!-- =========================================== -->
 
-<div class="release-content">
+<div class="col-lg-4">
+
+<div class="archive-card">
+
+<div class="archive-top">
 
 <span class="release-category travel">
 
@@ -431,27 +561,25 @@ TRAVEL
 
 </span>
 
+<span class="release-date">
+
+1 July 2026
+
+</span>
+
+</div>
+
 <h3>
 
-Travel Radio Australia Official Website Launch
+Travel Radio Australia Website Launch
 
 </h3>
 
 <p>
 
-Diamond Media Group launches the next-generation Travel Radio Australia website.
+Australia's newest travel broadcasting platform launches online.
 
 </p>
-
-<div class="release-meta">
-
-<span>1 July 2026</span>
-
-<span>DMG-PR-2026-004</span>
-
-</div>
-
-</div>
 
 <a href="#"
 
@@ -461,13 +589,17 @@ Read Story
 
 </a>
 
-</article>
+</div>
 
-<!-- ====================================== -->
+</div>
 
-<article class="release-card">
+<!-- =========================================== -->
 
-<div class="release-content">
+<div class="col-lg-4">
+
+<div class="archive-card">
+
+<div class="archive-top">
 
 <span class="release-category television">
 
@@ -475,28 +607,25 @@ SKI TV
 
 </span>
 
+<span class="release-date">
+
+June 2026
+
+</span>
+
+</div>
+
 <h3>
 
-SKI TV International Expansion Continues
+SKI TV International Expansion
 
 </h3>
 
 <p>
 
-Discussions continue with resorts and tourism organisations regarding
-new distribution opportunities.
+Continuing discussions with ski resorts and tourism organisations.
 
 </p>
-
-<div class="release-meta">
-
-<span>June 2026</span>
-
-<span>DMG-PR-2026-003</span>
-
-</div>
-
-</div>
 
 <a href="#"
 
@@ -506,13 +635,17 @@ Read Story
 
 </a>
 
-</article>
+</div>
 
-<!-- ====================================== -->
+</div>
 
-<article class="release-card">
+<!-- =========================================== -->
 
-<div class="release-content">
+<div class="col-lg-4">
+
+<div class="archive-card">
+
+<div class="archive-top">
 
 <span class="release-category film">
 
@@ -520,27 +653,25 @@ FILM
 
 </span>
 
+<span class="release-date">
+
+May 2026
+
+</span>
+
+</div>
+
 <h3>
 
-Diamond Film Productions Development Update
+Diamond Film Productions Update
 
 </h3>
 
 <p>
 
-Development continues on The Pensioner Gang and additional film projects.
+Development continues on The Pensioner Gang feature film.
 
 </p>
-
-<div class="release-meta">
-
-<span>May 2026</span>
-
-<span>DMG-PR-2026-002</span>
-
-</div>
-
-</div>
 
 <a href="#"
 
@@ -550,235 +681,41 @@ Read Story
 
 </a>
 
-</article>
-
 </div>
 
 </div>
 
-</section>
-<!-- ======================================
-MEDIA KIT FEATURE
-====================================== -->
+<!-- =========================================== -->
 
-<section class="media-kit-feature">
+<div class="col-lg-4">
 
-<div class="container">
+<div class="archive-card">
 
-<div class="row align-items-center g-5">
+<div class="archive-top">
 
-<div class="col-lg-5">
+<span class="release-category corporate">
 
-<img src="assets/images/mediakit.png"
-     class="media-kit-image img-fluid"
-     alt="Diamond Media Group Corporate Media Kit">
-
-</div>
-
-<div class="col-lg-7">
-
-<span class="section-tag">
-
-CORPORATE MEDIA KIT
+NEWS
 
 </span>
 
-<h2>
+<span class="release-date">
 
-Diamond Media Group Corporate Media Kit
-
-</h2>
-
-<p>
-
-Everything journalists, tourism organisations, broadcast partners and
-industry professionals need in one place, including executive biographies,
-company history, brand profiles, approved photography, corporate logos,
-media contacts and downloadable resources.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="mediakit.html"
-   class="btn btn-gold">
-
-<i class="fas fa-book-open"></i>
-
-Explore Media Kit
-
-</a>
-
-<a href="assets/pdf/Diamond-Media-Group-Corporate-Media-Kit.pdf"
-   class="btn btn-dark"
-   target="_blank"
-   download>
-
-<i class="fas fa-download"></i>
-
-Download PDF
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<!-- ======================================
-LATEST ACROSS DIAMOND MEDIA GROUP
-====================================== -->
-
-<section class="latest-news">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>OUR NETWORK</span>
-
-<h2>Latest Across Diamond Media Group</h2>
-
-<p>
-
-Explore the latest stories, productions and developments from our media brands.
-
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<!-- Travel Radio Australia -->
-
-<div class="col-lg-3 col-md-6">
-
-<div class="story-card">
-
-<img src="assets/images/travel-radio-logo.png"
-
-alt="Travel Radio Australia">
-
-<div class="story-content">
-
-<span class="release-category travel">
-
-TRAVEL RADIO
+Archive
 
 </span>
+
+</div>
 
 <h3>
 
-Travel Radio Australia
+More Press Releases
 
 </h3>
 
 <p>
 
-Australia's travel broadcaster covering destinations,
-events,
-aviation and tourism.
-
-</p>
-
-<a href="https://travelradioaustralia.com"
-
-target="_blank"
-
-class="archive-btn">
-
-Visit Website
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- SKI TV -->
-
-<div class="col-lg-3 col-md-6">
-
-<div class="story-card">
-
-<img src="assets/images/skitv-logo.png"
-
-alt="SKI TV">
-
-<div class="story-content">
-
-<span class="release-category television">
-
-SKI TV
-
-</span>
-
-<h3>
-
-SKI TV
-
-</h3>
-
-<p>
-
-Streaming winter sports,
-ski resorts,
-snow reports
-and alpine travel worldwide.
-
-</p>
-
-<a href="https://skitv.tv"
-
-target="_blank"
-
-class="archive-btn">
-
-Visit Website
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Diamond Film Productions -->
-
-<div class="col-lg-3 col-md-6">
-
-<div class="story-card">
-
-<img src="assets/images/diamond-film-productions.png"
-
-alt="Diamond Film Productions">
-
-<div class="story-content">
-
-<span class="release-category film">
-
-FILM
-
-</span>
-
-<h3>
-
-Diamond Film Productions
-
-</h3>
-
-<p>
-
-Developing feature films,
-documentaries
-and original television productions.
+Additional announcements, interviews and company news will be added here.
 
 </p>
 
@@ -796,197 +733,89 @@ Coming Soon
 
 </div>
 
-<!-- Corporate -->
-
-<div class="col-lg-3 col-md-6">
-
-<div class="story-card">
-
-<img src="assets/images/diamond-logo.png"
-
-alt="Diamond Media Group">
-
-<div class="story-content">
-
-<span class="release-category corporate">
-
-CORPORATE
-
-</span>
-
-<h3>
-
-Diamond Media Group
-
-</h3>
-
-<p>
-
-Corporate announcements,
-media releases,
-strategic partnerships
-and executive news.
-
-</p>
-
-<a href="mediakit.html"
-
-class="archive-btn">
-
-Media Kit
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </section>
-<!-- ======================================
-MEDIA ENQUIRIES
-====================================== -->
+<!-- ===========================================================
+MEDIA CENTRE
+=========================================================== -->
 
-<section class="media-contact">
+<section class="media-centre">
 
 <div class="container">
 
-<div class="contact-card">
+<div class="section-title">
 
-<span class="section-tag">
-
-MEDIA ENQUIRIES
-
-</span>
+<span>MEDIA CENTRE</span>
 
 <h2>
 
-Contact the Diamond Media Group Newsroom
+Resources for Journalists & Partners
 
 </h2>
 
 <p>
 
-For interviews, media accreditation, photography,
-broadcast enquiries, press releases,
-Travel Radio Australia,
-SKI TV,
-Diamond Film Productions
-or corporate information,
-please contact our newsroom.
+Everything you need to work with Diamond Media Group.
 
 </p>
 
-<div class="contact-buttons">
+</div>
 
-<a href="mailto:worldtvinternational@gmail.com"
+<div class="row g-4">
 
-class="btn btn-gold">
+<!-- ========================================= -->
 
-<i class="fas fa-envelope"></i>
+<div class="col-lg-4">
 
-Email Newsroom
+<div class="media-panel">
 
-</a>
+<img src="assets/images/mediakit.png"
+class="panel-image"
+alt="Corporate Media Kit">
+
+<h3>
+
+Corporate Media Kit
+
+</h3>
+
+<p>
+
+Download executive biographies, company information,
+brand profiles, logos, photography and media resources.
+
+</p>
 
 <a href="mediakit.html"
 
-class="btn btn-dark">
+class="btn btn-gold">
 
-Media Kit
+Explore Media Kit
 
 </a>
 
 </div>
 
-<div class="social-icons">
-
-<a href="#"><i class="fab fa-facebook-f"></i></a>
-
-<a href="#"><i class="fab fa-instagram"></i></a>
-
-<a href="#"><i class="fab fa-linkedin"></i></a>
-
-<a href="#"><i class="fab fa-youtube"></i></a>
-
 </div>
 
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================
-FOOTER
-====================================== -->
-
-<footer>
-
-<div class="container">
-
-<div class="row">
+<!-- ========================================= -->
 
 <div class="col-lg-4">
+
+<div class="media-panel">
 
 <img src="assets/images/diamond-logo.png"
-
-class="footer-logo"
-
+class="panel-logo"
 alt="Diamond Media Group">
 
-<p>
-
-Creating Stories That Travel The World
-
-</p>
-
-<p>
-
-Diamond Media Group is an Australian independent media company producing travel, tourism, broadcasting, digital media and film content.
-
-</p>
-
-</div>
-
-<div class="col-lg-4">
-
-<h4>
-
-Quick Links
-
-</h4>
-
-<ul>
-
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="news.html">Newsroom</a></li>
-
-<li><a href="mediakit.html">Media Kit</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
-</div>
-
-<div class="col-lg-4">
-
-<h4>
+<h3>
 
 Our Brands
 
-</h4>
+</h3>
 
-<ul>
+<ul class="brand-list">
 
 <li>Travel Radio Australia</li>
 
@@ -998,24 +827,69 @@ Our Brands
 
 </ul>
 
+<a href="about.html"
+
+class="btn btn-gold">
+
+Our Brands
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ========================================= -->
+
+<div class="col-lg-4">
+
+<div class="media-panel">
+
+<i class="fas fa-envelope-open-text panel-icon"></i>
+
+<h3>
+
+Media Contact
+
+</h3>
+
+<p>
+
+For interviews, media accreditation,
+corporate enquiries and press information.
+
+</p>
+
+<p>
+
+<strong>Email</strong><br>
+
+worldtvinternational@gmail.com
+
+</p>
+
+<p>
+
+<strong>Phone</strong><br>
+
+04122 70943
+
+</p>
+
+<a href="contact.html"
+
+class="btn btn-gold">
+
+Contact Newsroom
+
+</a>
+
 </div>
 
 </div>
 
-<hr>
-
-<div class="copyright">
-
-© 2026 Diamond Media Group. All Rights Reserved.
-
 </div>
 
 </div>
 
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+</section>
