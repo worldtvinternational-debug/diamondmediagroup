@@ -1,0 +1,1410 @@
+/*==================================================
+DIAMOND MEDIA GROUP
+VERSION 2.0
+Premium Corporate Media Framework
+==================================================*/
+
+
+/*==================================================
+01. GOOGLE FONTS
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/*==================================================
+02. ROOT VARIABLES
+==================================================*/
+
+:root{
+
+    --bg:#050B14;
+    --bg-soft:#091524;
+    --card:#0E1726;
+    --card-light:#162132;
+
+    --gold:#D4AF37;
+    --gold-light:#F3D777;
+
+    --white:#FFFFFF;
+
+    --text:#D8DEE8;
+    --text-light:#AEB9C9;
+
+    --border:rgba(255,255,255,.08);
+
+    --shadow:0 18px 45px rgba(0,0,0,.45);
+
+    --radius:22px;
+
+    --transition:.35s ease;
+
+}
+
+
+/*==================================================
+03. RESET
+==================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:Poppins,sans-serif;
+
+    line-height:1.75;
+
+    overflow-x:hidden;
+
+}
+
+
+/*==================================================
+04. TYPOGRAPHY
+==================================================*/
+
+h1,h2,h3,h4,h5{
+
+    font-family:Cinzel,serif;
+
+    color:#fff;
+
+    font-weight:600;
+
+    line-height:1.1;
+
+}
+
+h1{
+
+    font-size:clamp(3rem,7vw,5.8rem);
+
+}
+
+h2{
+
+    font-size:clamp(2.2rem,5vw,3.8rem);
+
+}
+
+h3{
+
+    font-size:2rem;
+
+}
+
+p{
+
+    color:var(--text-light);
+
+    font-size:1.08rem;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+
+/*==================================================
+05. LAYOUT
+==================================================*/
+
+section{
+
+    position:relative;
+
+    padding:110px 0;
+
+}
+
+.container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    color:var(--gold);
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    font-size:.85rem;
+
+}
+
+.section-divider{
+
+    width:120px;
+
+    height:4px;
+
+    background:var(--gold);
+
+    border-radius:30px;
+
+    margin:35px auto;
+
+}
+
+.text-left .section-divider{
+
+    margin-left:0;
+
+}
+
+.bg-dark{
+
+    background:var(--bg);
+
+}
+
+.bg-soft{
+
+    background:var(--bg-soft);
+
+}
+/*==================================================
+06. NAVIGATION
+==================================================*/
+
+.navbar{
+
+    background:rgba(5,11,20,.88);
+
+    backdrop-filter:blur(18px);
+
+    transition:.35s;
+
+    padding:18px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+}
+
+.navbar-brand img{
+
+    height:58px;
+
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link{
+
+    color:#fff;
+
+    font-weight:600;
+
+    margin-left:28px;
+
+    letter-spacing:.5px;
+
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:var(--gold);
+
+}
+
+.navbar-nav .active{
+
+    color:var(--gold)!important;
+
+}
+
+
+/*==================================================
+07. BUTTONS
+==================================================*/
+
+.btn{
+
+    border-radius:50px;
+
+    padding:16px 38px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+    letter-spacing:.3px;
+
+}
+
+.btn-gold{
+
+    background:var(--gold);
+
+    color:#000;
+
+    border:none;
+
+    box-shadow:0 12px 30px rgba(212,175,55,.28);
+
+}
+
+.btn-gold:hover{
+
+    background:var(--gold-light);
+
+    transform:translateY(-3px);
+
+}
+
+.btn-outline-light{
+
+    border:2px solid rgba(255,255,255,.45);
+
+    color:#fff;
+
+    background:transparent;
+
+}
+
+.btn-outline-light:hover{
+
+    background:#fff;
+
+    color:#000;
+
+    transform:translateY(-3px);
+
+}
+
+
+/*==================================================
+08. UNIVERSAL HERO
+==================================================*/
+
+.hero-video{
+
+    position:relative;
+
+    height:100vh;
+
+    min-height:780px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+.hero-bg-video{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    filter:brightness(1.15)
+           contrast(1.08)
+           saturate(1.15);
+
+    z-index:0;
+
+}
+
+/* soft dark overlay */
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(5,11,20,.18);
+
+    z-index:1;
+
+}
+
+/* cinematic gold gradient */
+
+.hero-gradient{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(to bottom,
+    rgba(0,0,0,.08),
+    rgba(0,0,0,.22));
+
+    z-index:1;
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:5;
+
+    max-width:980px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:12px 30px;
+
+    border-radius:50px;
+
+    border:1px solid rgba(212,175,55,.45);
+
+    color:var(--gold);
+
+    letter-spacing:3px;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+}
+
+.hero h1,
+.hero-video h1{
+
+    color:#fff;
+
+    text-shadow:0 4px 18px rgba(0,0,0,.45);
+
+}
+
+.hero-divider{
+
+    width:130px;
+
+    height:4px;
+
+    background:var(--gold);
+
+    margin:34px auto;
+
+    border-radius:40px;
+
+}
+
+.hero-text{
+
+    max-width:760px;
+
+    margin:auto;
+
+    font-size:1.22rem;
+
+    color:#F0F0F0;
+
+    text-shadow:0 3px 12px rgba(0,0,0,.4);
+
+    margin-bottom:50px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:22px;
+
+    flex-wrap:wrap;
+
+}
+
+
+/*==================================================
+09. SCROLL INDICATOR
+==================================================*/
+
+.scroll-down{
+
+    position:absolute;
+
+    bottom:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:34px;
+
+    height:58px;
+
+    border:2px solid rgba(255,255,255,.55);
+
+    border-radius:30px;
+
+    z-index:10;
+
+}
+
+.scroll-down span{
+
+    position:absolute;
+
+    top:12px;
+
+    left:50%;
+
+    width:6px;
+
+    height:12px;
+
+    margin-left:-3px;
+
+    background:#fff;
+
+    border-radius:6px;
+
+    animation:scroll 2s infinite;
+
+}
+
+@keyframes scroll{
+
+0%{
+
+opacity:0;
+
+transform:translateY(0);
+
+}
+
+50%{
+
+opacity:1;
+
+}
+
+100%{
+
+opacity:0;
+
+transform:translateY(18px);
+
+}
+
+}
+/*==================================================
+08. PREMIUM HERO
+==================================================*/
+
+.hero-video{
+
+    position:relative;
+    height:100vh;
+    min-height:850px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+.hero-bg-video{
+
+    position:absolute;
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    filter:
+        brightness(1.35)
+        contrast(1.08)
+        saturate(1.20);
+
+    transform:scale(1.03);
+
+    z-index:0;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.12);
+
+    z-index:1;
+
+}
+
+.hero-gradient{
+
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(circle at center,
+        rgba(212,175,55,.08),
+        transparent 45%),
+    linear-gradient(
+        rgba(0,0,0,.05),
+        rgba(0,0,0,.18),
+        rgba(0,0,0,.38));
+
+    z-index:2;
+
+}
+
+.hero-content{
+
+    position:relative;
+    z-index:5;
+
+    max-width:1000px;
+
+    margin-top:-40px;
+
+}
+
+.hero h1,
+.hero-video h1{
+
+    color:#fff;
+
+    font-size:clamp(3.5rem,6vw,5.8rem);
+
+    line-height:1.05;
+
+    text-shadow:
+        0 5px 25px rgba(0,0,0,.45);
+
+    margin-bottom:30px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+    border:1px solid rgba(212,175,55,.45);
+
+    background:rgba(212,175,55,.08);
+
+    color:var(--gold);
+
+    letter-spacing:4px;
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    margin-bottom:28px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.hero-text{
+
+    max-width:760px;
+
+    margin:0 auto 55px;
+
+    font-size:1.25rem;
+
+    color:#F6F6F6;
+
+}
+/*==================================================
+10. BRAND CARDS
+==================================================*/
+
+.brand-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:34px;
+
+    margin-top:70px;
+
+}
+
+.brand-card{
+
+    background:linear-gradient(
+        180deg,
+        #111C2B,
+        #091523);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.45s;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+.brand-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:rgba(212,175,55,.45);
+
+    box-shadow:
+        0 30px 60px rgba(0,0,0,.55);
+
+}
+
+.brand-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.brand-content{
+
+    padding:34px;
+
+}
+
+.brand-content h3{
+
+    margin-bottom:18px;
+
+    color:#fff;
+
+}
+
+.brand-content p{
+
+    min-height:130px;
+
+}
+
+.brand-card .btn{
+
+    margin-top:18px;
+
+}
+/*==================================================
+11. SECTION TITLES
+==================================================*/
+
+.section-title{
+
+    max-width:900px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.section-title h2{
+
+    margin-bottom:24px;
+
+}
+
+.section-title p{
+
+    font-size:1.2rem;
+
+}
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+.rounded-image{
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+/*==================================================
+13. OUR BRANDS
+==================================================*/
+
+.brands-home{
+
+    background:#08131F;
+
+}
+
+.brand-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+    margin-top:70px;
+
+}
+
+.brand-card{
+
+    background:#101B2B;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.4s;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.brand-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(212,175,55,.5);
+
+}
+
+.brand-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.brand-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.brand-content{
+
+    padding:34px;
+
+}
+
+.brand-content h3{
+
+    margin-bottom:18px;
+
+}
+
+.brand-content p{
+
+    margin-bottom:26px;
+
+}
+
+.brand-content a{
+
+    color:var(--gold);
+
+    font-weight:700;
+
+}
+
+.brand-content a:hover{
+
+    letter-spacing:1px;
+
+}
+/*==================================================
+14. FEATURED PROJECTS
+==================================================*/
+
+.projects-home{
+
+    background:#050B14;
+
+}
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.project-card{
+
+    background:#0F1828;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--gold);
+
+}
+
+.project-card img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.project-content{
+
+    padding:30px;
+
+}
+
+.project-content h3{
+
+    margin-bottom:16px;
+
+}
+
+.project-content p{
+
+    margin-bottom:24px;
+
+}
+/*==================================================
+15. MEDIA PREVIEW
+==================================================*/
+
+.media-preview{
+
+    background:#07111D;
+
+}
+
+.media-list{
+
+    margin-top:70px;
+
+}
+
+.media-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:30px;
+
+    padding:35px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.media-item:hover{
+
+    padding-left:18px;
+
+    border-color:var(--gold);
+
+}
+
+.media-date{
+
+    color:var(--gold);
+
+    min-width:140px;
+
+    font-weight:600;
+
+}
+
+.media-item h3{
+
+    flex:1;
+
+    margin:0;
+
+    font-size:1.5rem;
+
+}
+
+.media-item a{
+
+    color:var(--gold);
+
+    font-weight:700;
+
+    white-space:nowrap;
+
+}
+
+.media-item a:hover{
+
+    letter-spacing:.5px;
+
+}
+
+@media(max-width:992px){
+
+.media-item{
+
+display:block;
+
+}
+
+.media-item h3{
+
+margin:15px 0;
+
+}
+
+}
+/*==================================================
+16. PREMIUM FOOTER
+==================================================*/
+
+.footer{
+
+    background:#040A12;
+
+    padding:90px 0 40px;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+}
+
+.footer-logo{
+
+    height:70px;
+
+}
+
+.footer h5{
+
+    margin-bottom:28px;
+
+    color:#fff;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:14px;
+
+}
+
+.footer-links a{
+
+    color:#B9C3D0;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--gold);
+
+    padding-left:6px;
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+}
+
+.footer-social a{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#101A28;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--gold);
+
+    color:#000;
+
+}
+
+.footer-bottom{
+
+    margin-top:40px;
+
+    color:#8E98A6;
+
+}
+
+.footer hr{
+
+    margin-top:60px;
+
+    border-color:rgba(255,255,255,.08);
+
+}
+/*==================================================
+WHY DIAMOND MEDIA GROUP
+==================================================*/
+
+.why-dmg{
+
+    background:#06111d;
+
+    padding:120px 0;
+
+}
+
+.stat-box{
+
+    background:linear-gradient(
+        180deg,
+        #101b2b,
+        #081320);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:45px 35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--gold);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.stat-number{
+
+    display:block;
+
+    font-size:3.8rem;
+
+    font-weight:700;
+
+    color:var(--gold);
+
+    margin-bottom:20px;
+
+    font-family:Cinzel,serif;
+
+}
+
+.stat-box h4{
+
+    color:#fff;
+
+    margin-bottom:18px;
+
+}
+
+.stat-box p{
+
+    margin:0;
+
+}
+/*==================================================
+BRAND FEATURE
+==================================================*/
+
+.brand-feature{
+
+    padding:140px 0;
+
+    background:#07121F;
+
+}
+
+.feature-image{
+
+    border-radius:28px;
+
+    box-shadow:0 30px 70px rgba(0,0,0,.45);
+
+    transition:.5s;
+
+}
+
+.feature-image:hover{
+
+    transform:scale(1.02);
+
+}
+
+.brand-feature h2{
+
+    margin-bottom:30px;
+
+}
+
+.brand-feature p{
+
+    font-size:1.15rem;
+
+    margin-bottom:40px;
+
+}
+/*==================================================
+MEDIA DOWNLOADS
+==================================================*/
+
+.downloads-section{
+
+    padding:120px 0;
+
+    background:#081320;
+
+}
+
+.download-card{
+
+    background:linear-gradient(180deg,#111b2a,#08131f);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:45px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.download-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--gold);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.download-card i{
+
+    font-size:3rem;
+
+    color:var(--gold);
+
+    margin-bottom:25px;
+
+}
+
+.download-card h3{
+
+    margin-bottom:18px;
+
+}
+
+.download-card p{
+
+    margin-bottom:30px;
+
+}
+/*==================================================
+ANIMATIONS
+==================================================*/
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:.9s ease;
+
+}
+
+.fade-up.show{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+.zoom-image{
+
+    overflow:hidden;
+
+}
+
+.zoom-image img{
+
+    transition:transform .8s ease;
+
+}
+
+.zoom-image:hover img{
+
+    transform:scale(1.05);
+
+}
+/*==================================================
+TRUST BAR
+==================================================*/
+
+.trust-bar{
+
+    background:#02070d;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+    padding:18px 0;
+
+}
+
+.trust-items{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:45px;
+
+    flex-wrap:wrap;
+
+    font-size:.9rem;
+
+    letter-spacing:1px;
+
+    color:#d4af37;
+
+    font-weight:600;
+
+}
