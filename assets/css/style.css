@@ -2324,31 +2324,7 @@ UNIVERSAL VIDEO HERO
 }
 /* ==========================================
    DIAMOND MEDIA GROUP
-   HEADER LOGO — APPROX. 10% LARGER
-   ========================================== */
-
-.logo img {
-    height: 55px;
-    width: auto;
-    display: block;
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-    .logo img {
-        height: 44px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .logo img {
-        height: 36px;
-    }
-}
-/* ==========================================
-   DIAMOND MEDIA GROUP
-   HEADER LOGO — APPROX. 20% LARGER
+   HEADER LOGO — FINAL SIZE
    ========================================== */
 
 .navbar-brand img,
@@ -2356,7 +2332,7 @@ UNIVERSAL VIDEO HERO
 .site-logo img,
 header img[alt*="Diamond Media Group"],
 header img[alt*="Diamond"] {
-    height: 79px !important;
+    height: 110px !important;
     width: auto !important;
     max-width: none !important;
     display: block;
@@ -2375,7 +2351,7 @@ header img[alt*="Diamond"] {
     .site-logo img,
     header img[alt*="Diamond Media Group"],
     header img[alt*="Diamond"] {
-        height: 65px !important;
+        height: 90px !important;
     }
 }
 
@@ -2386,6 +2362,6 @@ header img[alt*="Diamond"] {
     .site-logo img,
     header img[alt*="Diamond Media Group"],
     header img[alt*="Diamond"] {
-        height: 53px !important;
+        height: 70px !important;
     }
 }
