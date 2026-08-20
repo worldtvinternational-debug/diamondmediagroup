@@ -2322,3 +2322,70 @@ UNIVERSAL VIDEO HERO
     }
 
 }
+/* ==========================================
+   DIAMOND MEDIA GROUP
+   HEADER LOGO — APPROX. 10% LARGER
+   ========================================== */
+
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .logo img {
+        height: 44px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .logo img {
+        height: 36px;
+    }
+}
+/* ==========================================
+   DIAMOND MEDIA GROUP
+   HEADER LOGO — APPROX. 20% LARGER
+   ========================================== */
+
+.navbar-brand img,
+.logo img,
+.site-logo img,
+header img[alt*="Diamond Media Group"],
+header img[alt*="Diamond"] {
+    height: 79px !important;
+    width: auto !important;
+    max-width: none !important;
+    display: block;
+}
+
+.navbar-brand,
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .navbar-brand img,
+    .logo img,
+    .site-logo img,
+    header img[alt*="Diamond Media Group"],
+    header img[alt*="Diamond"] {
+        height: 65px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .navbar-brand img,
+    .logo img,
+    .site-logo img,
+    header img[alt*="Diamond Media Group"],
+    header img[alt*="Diamond"] {
+        height: 53px !important;
+    }
+}
