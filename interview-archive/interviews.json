@@ -259,8 +259,18 @@
     "transcript": "transcript.pdf",
     "website": "https://soterinternational.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Tim Webb from Soter International Australia"
+   },   
+    {
+    "name": "Michelle Pianowski",
+    "folder": "pj",
+    "image": "pj.png",
+    "audio": "pj.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://heypj.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Michelle Pianowski from Hey PJ Tours"
    }    
   ]
+  
   
 
 
