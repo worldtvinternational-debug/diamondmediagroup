@@ -1,0 +1,279 @@
+[
+  {
+    "name": "Bruce Rosard",
+    "folder": "bruce",
+    "image": "bruce.png",
+    "audio": "bruce.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://arival.travel/",
+    "description": "Listen to this Travel Radio Australia interview featuring Bruce Rosard from arival.travel"
+  },
+  {
+    "name": "Janelle Vissar",
+    "folder": "janelle-vissar",
+    "image": "janelle-vissar.png",
+    "audio": "janelle-vissar.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://arival.travel/",
+    "description": "Listen to this Travel Radio Australia interview featuring Janelle Vissar from arival.travel"
+  },
+  {
+    "name": "Brett Melville",
+    "folder": "brett-melville",
+    "image": "brett-melville.png",
+    "audio": "brett-melville.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://venuesumo.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Brett Melville from Venue Sumo Australia."
+  },
+  {
+    "name": "Aaron Fessler",
+    "folder": "arron",
+    "image": "aaron.png",
+    "audio": "aaron.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tripworks.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Aaron Fessler from tripworks.com"
+  },
+    {
+    "name": "Aldwyn Altuney",
+    "folder": "aldwyn",
+    "image": "aldwyn.png",
+    "audio": "aldwyn.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://aaxpose.com/media-3/",
+    "description": "Listen to this Travel Radio Australia interview featuring Aldwyn Altuney from AA Xpose"
+  },
+{
+    "name": "Ben Roberts",
+    "folder": "ben-roberts",
+    "image": "ben-roberts.png",
+    "audio": "ben-roberts.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.queenslandrail.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Ben Roberts from Queensland Rail"
+  },
+{
+    "name": "Dean Iverson",
+    "folder": "dean",
+    "image": "dean.png",
+    "audio": "dean.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.iversonforest.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Dean Iverson from Total Defence Australia"
+  },
+{
+    "name": "Letitia Stephenson",
+    "folder": "letitia",
+    "image": "letitia.png",
+    "audio": "letitia.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.yonderhq.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Letitia Stephenson from Yonder HQ Australia"
+  },
+{
+    "name": "Des Hosie",
+    "folder": "des",
+    "image": "des.png",
+    "audio": "des.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.fireandemergency.nz/",
+    "description": "Listen to this Travel Radio Australia interview featuring Des Hosie from Fire and Emergency New Zealand"
+  },
+  {
+    "name": "Rob Vernon",
+    "folder": "rob",
+    "image": "rob.png",
+    "audio": "rob.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.fireforesight.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Rob Vernon from Fire Foresight Australia"
+  },
+    {
+    "name": "James Neill",
+    "folder": "jameswest",
+    "image": "jameswest.png",
+    "audio": "jameswest.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.westernaustralia.com/au/home",
+    "description": "Listen to this Travel Radio Australia interview featuring James Neill from Visit Western Australia"
+  },
+      {
+    "name": "John Boulding",
+    "folder": "johnb",
+    "image": "johnb.png",
+    "audio": "johnb.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://voxtours.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring John Boulding from Vox Tours"
+  },
+   {
+    "name": "Matthew Thompson",
+    "folder": "mattsurf",
+    "image": "mattsurf.png",
+    "audio": "mattsurf.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://lifesaving.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Matthew Thompson from Surf Life Saving Queensland"
+  },
+  {
+    "name": "Rebecca Noy",
+    "folder": "rebecca",
+    "image": "rebecca.png",
+    "audio": "rebecca.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://dreamworld.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Rebecca Noy from Dreamworld Australia"
+  },
+  {
+    "name": "John Boris",
+    "folder": "johnboris",
+    "image": "johnb1.png",
+    "audio": "johnb.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.bigred.group/about-us/leaders/",
+    "description": "Listen to this Travel Radio Australia interview featuring John Boris from Big Red Group"
+  },
+{
+    "name": "John Wilson",
+    "folder": "johnwilson",
+    "image": "johnwilson.png",
+    "audio": "johnwilson.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.yha.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring John Wilson from YHA Australia"
+  },
+  {
+    "name": "Melanie Summer",
+    "folder": "melanie",
+    "image": "melanie.png",
+    "audio": "melanie.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.fortresslearning.edu.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Melanie Summer from Fortress Learning Australia"
+  },
+{
+    "name": "Zadok Jaring ",
+    "folder": "zad",
+    "image": "zad.png",
+    "audio": "zad.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/zadok.jaring",
+    "description": "Listen to this Travel Radio Australia interview featuring Zadok Jaring from Amsterdam"
+  },
+{
+    "name": "Meghan Forbes",
+    "folder": "meghan",
+    "image": "meghan.png",
+    "audio": "meghan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.fotaflo.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Meghan Forbes from Fotaflo"
+  },
+  {
+    "name": "Thomas Von Mossner",
+    "folder": "thomas",
+    "image": "thomas.png",
+    "audio": "thomas.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.getyourguide.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Thomas Von Mosner from Get Your Guide"
+   },
+   {
+    "name": "Suzy Bohan",
+    "folder": "suzy",
+    "image": "suzy.png",
+    "audio": "suzy.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.moretonbay.qld.gov.au/Events",
+    "description": "Listen to this Travel Radio Australia interview featuring Suzy Bohan from Moreton Bay Events"
+   },
+    {
+    "name": "Nikki Clerke",
+    "folder": "nikki",
+    "image": "nikki.png",
+    "audio": "nikki.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.seemoretours.co.nz/",
+    "description": "Listen to this Travel Radio Australia interview featuring Nikki Clerke from See More Tours New Zealand"
+   },
+    {
+    "name": "Rahim Uddin",
+    "folder": "rahim",
+    "image": "rahim.png",
+    "audio": "rahim.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.jtrholidays.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Rahim Uddin from JTR Holidays"
+   },
+    {
+    "name": "Mack Gaughn",
+    "folder": "mack",
+    "image": "mack.png",
+    "audio": "mack.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://tashi.travel/solutions/enterprise-travel-marketplaces",
+    "description": "Listen to this Travel Radio Australia interview featuring Mack Gaughn from Tashi"
+   },  
+    {
+    "name": "Lisa Chambers",
+    "folder": "lisa",
+    "image": "lisa.png",
+    "audio": "lisa.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.cairnsadventuregroup.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Lisa Chambers from Cairns Adventure Group"
+   },  
+    {
+    "name": "Karen Larsen",
+    "folder": "karen",
+    "image": "karen.png",
+    "audio": "karen.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.headout.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Karen Larsen from Headout Australia"
+   },    
+     {
+    "name": "Fabienne Wintle",
+    "folder": "fabienne",
+    "image": "fabienne.png",
+    "audio": "fabienne.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tourismtribe.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Fabienne Wintle from Tourism Tribe Australia"
+   },  
+   {
+    "name": "Kate Coxall",
+    "folder": "katec",
+    "image": "katec.png",
+    "audio": "katec.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://prodigywildfire.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Kate Coxall from Prodigy Wildfire Solutions Australia"
+   },   
+    {
+    "name": "Tim Webb",
+    "folder": "tim",
+    "image": "tim.png",
+    "audio": "tim.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://soterinternational.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Tim Webb from Soter International Australia"
+   }    
+  ]
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

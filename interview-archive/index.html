@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Travel Radio Australia | Interview Archive
+    </title>
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <style>
+
+        /* =========================================================
+           ROOT
+           ========================================================= */
+
+        :root {
+
+            --navy: #1d2938;
+            --navy-light: #2b3a4d;
+
+            --gold: #f6c344;
+            --gold-dark: #dba91f;
+
+            --page-bg: #eef0f3;
+            --card-bg: #ffffff;
+
+            --text: #263646;
+            --muted: #647181;
+
+            --border: #d8dde3;
+
+            --blue: #25698f;
+            --blue-dark: #1e5675;
+
+        }
+
+
+        /* =========================================================
+           BASIC RESET
+           ========================================================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+       
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #26384a;
+    color: var(--text);
+}
+        button,
+        input {
+            font-family: inherit;
+        }
+
+
+        /* =========================================================
+           HERO
+           ========================================================= */
+
+        .archive-hero {
+
+            background:
+                var(--navy);
+
+            color:
+                white;
+        }
+
+        .hero-container {
+
+            width:
+                min(1200px, 90%);
+
+            margin:
+                0 auto;
+
+            padding:
+                45px 0;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                45px;
+        }
+
+        .hero-photo {
+
+            width:
+                360px;
+
+            height:
+                250px;
+
+            flex-shrink:
+                0;
+
+            border-radius:
+                16px;
+
+            overflow:
+                hidden;
+
+            background:
+                #101923;
+        }
+
+        .hero-photo img {
+
+            width:
+                100%;
+
+            height:
+                100%;
+
+            display:
+                block;
+
+            object-fit:
+                contain;
+
+            object-position:
+                center;
+        }
+
+        .hero-content {
+
+            flex:
+                1;
+        }
+
+        .archive-icon {
+
+            font-size:
+                28px;
+
+            color:
+                var(--gold);
+
+            margin-bottom:
+                8px;
+        }
+
+        .hero-content h1 {
+
+            margin:
+                0 0 18px;
+
+            font-size:
+                clamp(2rem, 4vw, 3.2rem);
+
+            line-height:
+                1.1;
+
+            color:
+                white;
+        }
+
+        .hero-content h1 span {
+
+            color:
+                var(--gold);
+        }
+
+        .hero-content p {
+
+            margin:
+                0 0 16px;
+
+            font-size:
+                1.05rem;
+
+            line-height:
+                1.65;
+
+            color:
+                #edf1f5;
+
+            max-width:
+                760px;
+        }
+
+        .hero-content a {
+
+            color:
+                var(--gold);
+
+            font-weight:
+                bold;
+        }
+
+
+        /* =========================================================
+           MAIN
+           ========================================================= */
+
+        main {
+
+            min-height:
+                70vh;
+        }
+
+        .archive-section {
+
+            width:
+                min(1200px, 90%);
+
+            margin:
+                0 auto;
+
+            padding:
+                50px 0 70px;
+        }
+
+        .archive-section h2 {
+    font-size: 2.2rem;
+    margin: 0 0 10px;
+    color: #ffffff;
+}
+
+.section-intro {
+    margin: 0 0 25px;
+    font-size: 1.05rem;
+    color: #ffffff;
+}
+
+
+        /* =========================================================
+           SEARCH
+           ========================================================= */
+
+        .search-wrap {
+
+            position:
+                relative;
+
+            width:
+                100%;
+
+            max-width:
+                650px;
+
+            margin-bottom:
+                30px;
+        }
+
+        .search-wrap i {
+
+            position:
+                absolute;
+
+            left:
+                18px;
+
+            top:
+                50%;
+
+            transform:
+                translateY(-50%);
+
+            color:
+                var(--navy);
+
+            font-size:
+                1.1rem;
+
+            pointer-events:
+                none;
+        }
+
+        #searchInput {
+
+            width:
+                100%;
+
+            height:
+                54px;
+
+            padding:
+                0 20px 0 52px;
+
+            border:
+                1px solid #cbd2da;
+
+            border-radius:
+                12px;
+
+            background:
+                white;
+
+            color:
+                var(--text);
+
+            font-size:
+                1rem;
+
+            outline:
+                none;
+
+            box-shadow:
+                0 3px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        #searchInput:focus {
+
+            border-color:
+                var(--gold);
+
+            box-shadow:
+                0 0 0 3px rgba(246, 195, 68, 0.18);
+        }
+
+
+        /* =========================================================
+           GRID
+           ========================================================= */
+
+        #interviewsGrid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(3, minmax(0, 1fr));
+
+            gap:
+                28px;
+        }
+
+
+        /* =========================================================
+           CARD
+           ========================================================= */
+
+        .interview-card {
+
+            background:
+                var(--card-bg);
+
+            border:
+                1px solid var(--border);
+
+            border-radius:
+                16px;
+
+            overflow:
+                hidden;
+
+            box-shadow:
+                0 6px 20px rgba(0, 0, 0, 0.06);
+
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+
+            scroll-margin-top:
+                30px;
+        }
+
+        .interview-card:hover {
+
+            transform:
+                translateY(-4px);
+
+            box-shadow:
+                0 12px 28px rgba(0, 0, 0, 0.10);
+        }
+
+
+        /* =========================================================
+           IMAGE
+           ========================================================= */
+
+        .interview-image {
+
+            width:
+                100%;
+
+            height:
+                220px;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+            background:
+                #e7ebef;
+
+            overflow:
+                hidden;
+        }
+
+        .interview-image img {
+
+            width:
+                100%;
+
+            height:
+                100%;
+
+            display:
+                block;
+
+            object-fit:
+                contain;
+
+            object-position:
+                center;
+
+            background:
+                #e7ebef;
+        }
+
+
+        /* =========================================================
+           CARD CONTENT
+           ========================================================= */
+
+        .card-content {
+
+            padding:
+                22px;
+        }
+
+        .card-content h3 {
+
+            margin:
+                0 0 8px;
+
+            font-size:
+                1.35rem;
+
+            color:
+                var(--navy);
+        }
+
+        .card-content p {
+
+            margin:
+                0 0 14px;
+
+            line-height:
+                1.55;
+
+            color:
+                var(--muted);
+        }
+
+
+        /* =========================================================
+           WEBSITE
+           ========================================================= */
+
+        .website-link {
+
+            display:
+                inline-flex;
+
+            align-items:
+                center;
+
+            gap:
+                7px;
+
+            margin:
+                0 0 12px;
+
+            color:
+                var(--blue);
+
+            font-weight:
+                bold;
+
+            text-decoration:
+                none;
+        }
+
+        .website-link:hover {
+
+            color:
+                var(--blue-dark);
+
+            text-decoration:
+                underline;
+        }
+
+
+        /* =========================================================
+           STATIC WAVEFORM
+           ========================================================= */
+
+        .waveform {
+
+            width:
+                100%;
+
+            height:
+                64px;
+
+            margin:
+                12px 0 8px;
+
+            padding:
+                8px 10px;
+
+            background:
+                var(--navy);
+
+            border-radius:
+                10px;
+
+            overflow:
+                hidden;
+        }
+
+        .waveform-bars {
+
+            width:
+                100%;
+
+            height:
+                100%;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                3px;
+        }
+
+        .wave-bar {
+
+            flex:
+                1;
+
+            min-width:
+                2px;
+
+            max-width:
+                5px;
+
+            border-radius:
+                4px;
+
+            background:
+                rgba(246, 195, 68, 0.35);
+
+            transition:
+                background 0.12s ease;
+        }
+
+        .wave-bar.active {
+
+            background:
+                var(--gold);
+        }
+
+
+        /* =========================================================
+           AUDIO
+           ========================================================= */
+
+        .audio-player {
+
+            width:
+                100%;
+
+            margin-top:
+                10px;
+
+            display:
+                block;
+        }
+
+
+        /* =========================================================
+           BUTTONS
+           ========================================================= */
+
+        .card-actions {
+
+            display:
+                flex;
+
+            flex-wrap:
+                wrap;
+
+            gap:
+                8px;
+
+            margin-top:
+                12px;
+        }
+
+        .card-btn {
+
+            display:
+                inline-flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+            gap:
+                7px;
+
+            padding:
+                10px 13px;
+
+            border:
+                none;
+
+            border-radius:
+                8px;
+
+            text-decoration:
+                none;
+
+            font-weight:
+                bold;
+
+            font-size:
+                0.88rem;
+
+            cursor:
+                pointer;
+        }
+
+        .btn-listen {
+
+            background:
+                var(--navy);
+
+            color:
+                white;
+        }
+
+        .btn-transcript {
+
+            background:
+                var(--gold);
+
+            color:
+                #1b2633;
+        }
+
+        .btn-download {
+
+            background:
+                #e7edf2;
+
+            color:
+                var(--navy);
+
+            border:
+                1px solid #cfd7df;
+        }
+
+        .btn-share {
+
+            background:
+                #2f789f;
+
+            color:
+                white;
+        }
+
+        .btn-embed {
+
+            background:
+                #546273;
+
+            color:
+                white;
+        }
+
+
+        /* =========================================================
+           MESSAGE
+           ========================================================= */
+
+        .message-box {
+
+            grid-column:
+                1 / -1;
+
+            padding:
+                40px 25px;
+
+            text-align:
+                center;
+
+            background:
+                white;
+
+            border-radius:
+                16px;
+
+            border:
+                1px solid var(--border);
+
+            color:
+                var(--muted);
+        }
+
+        .message-box h3 {
+
+            margin:
+                0 0 10px;
+
+            color:
+                var(--text);
+        }
+
+
+        /* =========================================================
+           EMBED MODAL
+           ========================================================= */
+
+        .modal-backdrop {
+
+            position:
+                fixed;
+
+            inset:
+                0;
+
+            z-index:
+                9999;
+
+            display:
+                none;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+            padding:
+                20px;
+
+            background:
+                rgba(0, 0, 0, 0.65);
+        }
+
+        .modal-backdrop.open {
+
+            display:
+                flex;
+        }
+
+        .modal-box {
+
+            width:
+                min(700px, 100%);
+
+            max-height:
+                90vh;
+
+            overflow:
+                auto;
+
+            background:
+                white;
+
+            border-radius:
+                14px;
+
+            padding:
+                25px;
+        }
+
+        .modal-box h3 {
+
+            margin:
+                0 0 15px;
+
+            color:
+                var(--navy);
+        }
+
+        .modal-close {
+
+            float:
+                right;
+
+            border:
+                none;
+
+            background:
+                transparent;
+
+            font-size:
+                1.5rem;
+
+            cursor:
+                pointer;
+        }
+
+        .embed-code {
+
+            width:
+                100%;
+
+            min-height:
+                150px;
+
+            padding:
+                12px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius:
+                8px;
+
+            resize:
+                vertical;
+
+            font-family:
+                monospace;
+        }
+
+        .modal-copy {
+
+            margin-top:
+                12px;
+
+            background:
+                var(--navy);
+
+            color:
+                white;
+        }
+
+
+        /* =========================================================
+           FOOTER
+           ========================================================= */
+
+        footer {
+
+            background:
+                var(--navy);
+
+            color:
+                white;
+
+            text-align:
+                center;
+
+            padding:
+                25px;
+        }
+
+
+        /* =========================================================
+           RESPONSIVE
+           ========================================================= */
+
+        @media (max-width: 900px) {
+
+            .hero-container {
+
+                flex-direction:
+                    column;
+
+                align-items:
+                    flex-start;
+            }
+
+            .hero-photo {
+
+                width:
+                    100%;
+
+                max-width:
+                    500px;
+            }
+
+            #interviewsGrid {
+
+                grid-template-columns:
+                    repeat(
+                        2,
+                        minmax(0, 1fr)
+                    );
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .hero-container {
+
+                width:
+                    88%;
+
+                padding:
+                    35px 0;
+            }
+
+            .archive-section {
+
+                width:
+                    88%;
+
+                padding:
+                    35px 0 55px;
+            }
+
+            #interviewsGrid {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+            .hero-content h1 {
+
+                font-size:
+                    2.25rem;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
+    <header class="archive-hero">
+
+        <div class="hero-container">
+
+            <div class="hero-photo">
+
+                <img
+                    src="../assets/images/geoffinTRAstudio.png"
+                    alt="Geoff Harrison in the Travel Radio Australia studio"
+                >
+
+            </div>
+
+
+            <div class="hero-content">
+
+                <div class="archive-icon">
+
+                    <i class="bi bi-mic-fill"></i>
+
+                </div>
+
+
+                <h1>
+
+                    Travel Radio Australia<br>
+
+                    <span>
+                        Interview Archive
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    Welcome to the Travel Radio Australia
+                    Interview Archive. Here you can listen to
+                    interviews from around the world, download
+                    selected interviews and read or download
+                    transcripts.
+
+                </p>
+
+
+                <p>
+
+                    Interviews are hosted in the field by
+                    <strong>Geoff Harrison</strong>,
+                    Producer and Presenter at
+
+                    <br>
+
+                    <a
+                        href="https://www.travelradioaustralia.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        www.travelradioaustralia.com
+
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN
+         ========================================================= -->
+
+    <main>
+
+        <section class="archive-section">
+
+
+            <h2>
+                Featured Interviews
+            </h2>
+
+
+            <p class="section-intro">
+
+                Browse our growing collection of interviews
+                from across Australia and around the world.
+
+            </p>
+
+
+            <!-- SEARCH -->
+
+            <div class="search-wrap">
+
+                <i class="bi bi-search"></i>
+
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search interviews by name or keyword..."
+                    aria-label="Search interviews"
+                >
+
+            </div>
+
+
+            <!-- INTERVIEWS -->
+
+            <div id="interviewsGrid">
+
+                <div class="message-box">
+
+                    <h3>
+                        Loading interviews...
+                    </h3>
+
+                    <p>
+                        Please wait while the
+                        Travel Radio Australia
+                        archive loads.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         EMBED MODAL
+         ========================================================= -->
+
+    <div
+        id="modalBackdrop"
+        class="modal-backdrop"
+    >
+
+        <div class="modal-box">
+
+            <button
+                id="modalClose"
+                class="modal-close"
+                type="button"
+                aria-label="Close"
+            >
+                &times;
+            </button>
+
+
+            <h3 id="modalTitle">
+                Embed Interview
+            </h3>
+
+
+            <textarea
+                id="embedCode"
+                class="embed-code"
+                readonly
+            ></textarea>
+
+
+            <button
+                id="modalCopy"
+                class="card-btn modal-copy"
+                type="button"
+            >
+
+                <i class="bi bi-clipboard"></i>
+
+                Copy Embed Code
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+
+    <footer>
+
+        © 2026 Travel Radio Australia.
+        All rights reserved.
+
+    </footer>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+         ========================================================= -->
+
+    <script>
+
+        let allInterviews = [];
+
+
+        const interviewsGrid =
+            document.getElementById(
+                "interviewsGrid"
+            );
+
+
+        const searchInput =
+            document.getElementById(
+                "searchInput"
+            );
+
+
+        const modalBackdrop =
+            document.getElementById(
+                "modalBackdrop"
+            );
+
+
+        const modalClose =
+            document.getElementById(
+                "modalClose"
+            );
+
+
+        const modalTitle =
+            document.getElementById(
+                "modalTitle"
+            );
+
+
+        const embedCode =
+            document.getElementById(
+                "embedCode"
+            );
+
+
+        const modalCopy =
+            document.getElementById(
+                "modalCopy"
+            );
+
+
+        /* =========================================================
+           HELPERS
+           ========================================================= */
+
+        function getInterviewName(interview) {
+
+            return (
+                interview.name ||
+                interview.title ||
+                "Untitled Interview"
+            );
+
+        }
+
+
+        function getInterviewDescription(interview) {
+
+            return (
+                interview.description ||
+                interview.summary ||
+                ""
+            );
+
+        }
+
+
+        function getInterviewImage(interview) {
+
+            const image =
+                interview.image ||
+                interview.imageFile ||
+                "";
+
+
+            if (!image) {
+
+                return "";
+
+            }
+
+
+            if (
+                image.startsWith("http://") ||
+                image.startsWith("https://") ||
+                image.startsWith("data:")
+            ) {
+
+                return image;
+
+            }
+
+
+            if (interview.folder) {
+
+                return (
+                    `../travelradio/interviews/` +
+                    `${interview.folder}/` +
+                    `${image}`
+                );
+
+            }
+
+
+            return (
+                `../travelradio/interviews/` +
+                `${image}`
+            );
+
+        }
+
+
+        function getInterviewAudio(interview) {
+
+            const audio =
+                interview.audio ||
+                interview.audioFile ||
+                "";
+
+
+            if (!audio) {
+
+                return "";
+
+            }
+
+
+            if (
+                audio.startsWith("http://") ||
+                audio.startsWith("https://") ||
+                audio.startsWith("data:")
+            ) {
+
+                return audio;
+
+            }
+
+
+            if (interview.folder) {
+
+                return (
+                    `../travelradio/interviews/` +
+                    `${interview.folder}/` +
+                    `${audio}`
+                );
+
+            }
+
+
+            return (
+                `../travelradio/interviews/` +
+                `${audio}`
+            );
+
+        }
+
+
+        function getInterviewTranscript(interview) {
+
+            const transcript =
+                interview.transcript ||
+                interview.transcriptFile ||
+                "";
+
+
+            if (!transcript) {
+
+                return "";
+
+            }
+
+
+            if (
+                transcript.startsWith("http://") ||
+                transcript.startsWith("https://") ||
+                transcript.startsWith("data:")
+            ) {
+
+                return transcript;
+
+            }
+
+
+            if (interview.folder) {
+
+                return (
+                    `../travelradio/interviews/` +
+                    `${interview.folder}/` +
+                    `${transcript}`
+                );
+
+            }
+
+
+            return (
+                `../travelradio/interviews/` +
+                `${transcript}`
+            );
+
+        }
+
+
+        function getInterviewWebsite(interview) {
+
+            return (
+                interview.website ||
+                interview.url ||
+                ""
+            );
+
+        }
+
+
+        /* =========================================================
+           STATIC WAVEFORM
+           ========================================================= */
+
+        function createWaveform() {
+
+            const waveform =
+                document.createElement(
+                    "div"
+                );
+
+
+            waveform.className =
+                "waveform";
+
+
+            const bars =
+                document.createElement(
+                    "div"
+                );
+
+
+            bars.className =
+                "waveform-bars";
+
+
+            const heights = [
+
+                0.25, 0.45, 0.68, 0.38,
+                0.75, 0.52, 0.88, 0.36,
+                0.60, 0.80, 0.44, 0.72,
+                0.30, 0.58, 0.92, 0.46,
+                0.65, 0.84, 0.35, 0.55,
+                0.76, 0.42, 0.68, 0.32,
+                0.82, 0.48, 0.70, 0.40,
+                0.90, 0.54, 0.35, 0.66,
+                0.78, 0.44, 0.59, 0.86
+
+            ];
+
+
+            heights.forEach(
+                height => {
+
+                    const bar =
+                        document.createElement(
+                            "span"
+                        );
+
+
+                    bar.className =
+                        "wave-bar";
+
+
+                    bar.style.height =
+                        `${height * 100}%`;
+
+
+                    bars.appendChild(
+                        bar
+                    );
+
+                }
+            );
+
+
+            waveform.appendChild(
+                bars
+            );
+
+
+            return {
+
+                container:
+                    waveform,
+
+                bars:
+                    Array.from(
+                        bars.children
+                    )
+
+            };
+
+        }
+
+
+        /* =========================================================
+           DISPLAY INTERVIEWS
+           ========================================================= */
+
+        function displayInterviews(
+            interviews
+        ) {
+
+            interviewsGrid.innerHTML =
+                "";
+
+
+            if (
+                !interviews ||
+                interviews.length === 0
+            ) {
+
+                interviewsGrid.innerHTML = `
+
+                    <div class="message-box">
+
+                        <h3>
+                            No interviews found
+                        </h3>
+
+                        <p>
+                            Please try another search term.
+                        </p>
+
+                    </div>
+
+                `;
+
+                return;
+
+            }
+
+
+            interviews.forEach(
+                interview => {
+
+
+                    const name =
+                        getInterviewName(
+                            interview
+                        );
+
+
+                    const description =
+                        getInterviewDescription(
+                            interview
+                        );
+
+
+                    const image =
+                        getInterviewImage(
+                            interview
+                        );
+
+
+                    const audio =
+                        getInterviewAudio(
+                            interview
+                        );
+
+
+                    const transcript =
+                        getInterviewTranscript(
+                            interview
+                        );
+
+
+                    const website =
+                        getInterviewWebsite(
+                            interview
+                        );
+
+
+                    /* CARD */
+
+                    const card =
+                        document.createElement(
+                            "article"
+                        );
+
+
+                    card.className =
+                        "interview-card";
+
+
+                    if (interview.folder) {
+
+                        card.id =
+                            `interview-${interview.folder}`;
+
+                    }
+
+
+                    /* IMAGE */
+
+                    const imageBox =
+                        document.createElement(
+                            "div"
+                        );
+
+
+                    imageBox.className =
+                        "interview-image";
+
+
+                    if (image) {
+
+                        const img =
+                            document.createElement(
+                                "img"
+                            );
+
+
+                        img.src =
+                            image;
+
+
+                        img.alt =
+                            name;
+
+
+                        img.onerror =
+                            function () {
+
+                                imageBox.innerHTML =
+                                    `
+                                    <div style="
+                                        padding:20px;
+                                        text-align:center;
+                                        color:#647181;
+                                    ">
+                                        Photo unavailable
+                                    </div>
+                                    `;
+
+                            };
+
+
+                        imageBox.appendChild(
+                            img
+                        );
+
+                    }
+
+
+                    card.appendChild(
+                        imageBox
+                    );
+
+
+                    /* CONTENT */
+
+                    const content =
+                        document.createElement(
+                            "div"
+                        );
+
+
+                    content.className =
+                        "card-content";
+
+
+                    const heading =
+                        document.createElement(
+                            "h3"
+                        );
+
+
+                    heading.textContent =
+                        name;
+
+
+                    content.appendChild(
+                        heading
+                    );
+
+
+                    if (description) {
+
+                        const descriptionText =
+                            document.createElement(
+                                "p"
+                            );
+
+
+                        descriptionText.textContent =
+                            description;
+
+
+                        content.appendChild(
+                            descriptionText
+                        );
+
+                    }
+
+
+                    /* WEBSITE */
+
+                    if (website) {
+
+                        const websiteLink =
+                            document.createElement(
+                                "a"
+                            );
+
+
+                        websiteLink.href =
+                            website;
+
+
+                        websiteLink.target =
+                            "_blank";
+
+
+                        websiteLink.rel =
+                            "noopener noreferrer";
+
+
+                        websiteLink.className =
+                            "website-link";
+
+
+                        websiteLink.innerHTML =
+                            `
+                            <i class="bi bi-globe"></i>
+                            Visit Interviewee Website
+                            `;
+
+
+                        content.appendChild(
+                            websiteLink
+                        );
+
+                    }
+
+
+                    /* WAVEFORM */
+
+                    let waveformBars = [];
+
+
+                    if (audio) {
+
+                        const waveform =
+                            createWaveform();
+
+
+                        waveformBars =
+                            waveform.bars;
+
+
+                        content.appendChild(
+                            waveform.container
+                        );
+
+                    }
+
+
+                    /* AUDIO */
+
+                    let audioPlayer =
+                        null;
+
+
+                    if (audio) {
+
+                        audioPlayer =
+                            document.createElement(
+                                "audio"
+                            );
+
+
+                        audioPlayer.className =
+                            "audio-player";
+
+
+                        audioPlayer.controls =
+                            true;
+
+
+                        audioPlayer.preload =
+                            "metadata";
+
+
+                        audioPlayer.src =
+                            audio;
+
+
+                        content.appendChild(
+                            audioPlayer
+                        );
+
+
+                        audioPlayer.addEventListener(
+                            "timeupdate",
+                            function () {
+
+                                if (
+                                    !audioPlayer.duration
+                                ) {
+
+                                    return;
+
+                                }
+
+
+                                const progress =
+                                    audioPlayer.currentTime /
+                                    audioPlayer.duration;
+
+
+                                const active =
+                                    Math.floor(
+                                        progress *
+                                        waveformBars.length
+                                    );
+
+
+                                waveformBars.forEach(
+                                    (bar, index) => {
+
+                                        bar.classList.toggle(
+                                            "active",
+                                            index < active
+                                        );
+
+                                    }
+                                );
+
+                            }
+                        );
+
+                    }
+
+
+                    /* ACTIONS */
+
+                    const actions =
+                        document.createElement(
+                            "div"
+                        );
+
+
+                    actions.className =
+                        "card-actions";
+
+
+                    /* LISTEN */
+
+                    if (audioPlayer) {
+
+                        const listenButton =
+                            document.createElement(
+                                "button"
+                            );
+
+
+                        listenButton.type =
+                            "button";
+
+
+                        listenButton.className =
+                            "card-btn btn-listen";
+
+
+                        listenButton.innerHTML =
+                            `
+                            <i class="bi bi-play-fill"></i>
+                            Listen
+                            `;
+
+
+                        listenButton.addEventListener(
+                            "click",
+                            function () {
+
+
+                                document
+                                    .querySelectorAll(
+                                        ".audio-player"
+                                    )
+                                    .forEach(
+                                        player => {
+
+                                            if (
+                                                player !==
+                                                audioPlayer
+                                            ) {
+
+                                                player.pause();
+
+                                            }
+
+                                        }
+                                    );
+
+
+                                if (
+                                    audioPlayer.paused
+                                ) {
+
+                                    audioPlayer
+                                        .play()
+                                        .catch(
+                                            error => {
+
+                                                console.error(
+                                                    "Audio playback error:",
+                                                    error
+                                                );
+
+                                            }
+                                        );
+
+                                } else {
+
+                                    audioPlayer.pause();
+
+                                }
+
+                            }
+                        );
+
+
+                        audioPlayer.addEventListener(
+                            "play",
+                            function () {
+
+                                listenButton.innerHTML =
+                                    `
+                                    <i class="bi bi-pause-fill"></i>
+                                    Pause
+                                    `;
+
+                            }
+                        );
+
+
+                        audioPlayer.addEventListener(
+                            "pause",
+                            function () {
+
+                                listenButton.innerHTML =
+                                    `
+                                    <i class="bi bi-play-fill"></i>
+                                    Listen
+                                    `;
+
+                            }
+                        );
+
+
+                        actions.appendChild(
+                            listenButton
+                        );
+
+                    }
+
+
+                    /* READ + DOWNLOAD TRANSCRIPT */
+
+                    if (transcript) {
+
+                        const readButton =
+                            document.createElement(
+                                "a"
+                            );
+
+
+                        readButton.className =
+                            "card-btn btn-transcript";
+
+
+                        readButton.href =
+                            transcript;
+
+
+                        readButton.target =
+                            "_blank";
+
+
+                        readButton.rel =
+                            "noopener noreferrer";
+
+
+                        readButton.innerHTML =
+                            `
+                            <i class="bi bi-file-earmark-text"></i>
+                            Read Transcript
+                            `;
+
+
+                        actions.appendChild(
+                            readButton
+                        );
+
+
+                        const downloadButton =
+                            document.createElement(
+                                "a"
+                            );
+
+
+                        downloadButton.className =
+                            "card-btn btn-download";
+
+
+                        downloadButton.href =
+                            transcript;
+
+
+                        downloadButton.download =
+                            "";
+
+
+                        downloadButton.innerHTML =
+                            `
+                            <i class="bi bi-download"></i>
+                            Download Transcript
+                            `;
+
+
+                        actions.appendChild(
+                            downloadButton
+                        );
+
+                    }
+
+
+                    /* SHARE */
+
+                    const shareButton =
+                        document.createElement(
+                            "button"
+                        );
+
+
+                    shareButton.type =
+                        "button";
+
+
+                    shareButton.className =
+                        "card-btn btn-share";
+
+
+                    shareButton.innerHTML =
+                        `
+                        <i class="bi bi-share"></i>
+                        Share
+                        `;
+
+
+                    shareButton.addEventListener(
+                        "click",
+                        async function () {
+
+
+                            const shareUrl =
+                                new URL(
+                                    window.location.href
+                                );
+
+
+                            if (
+                                interview.folder
+                            ) {
+
+                                shareUrl.hash =
+                                    `interview-${interview.folder}`;
+
+                            }
+
+
+                            try {
+
+                                if (
+                                    navigator.share
+                                ) {
+
+                                    await navigator.share({
+
+                                        title:
+                                            name,
+
+                                        text:
+                                            description ||
+                                            name,
+
+                                        url:
+                                            shareUrl.href
+
+                                    });
+
+                                } else {
+
+                                    await navigator
+                                        .clipboard
+                                        .writeText(
+                                            shareUrl.href
+                                        );
+
+                                    alert(
+                                        "Interview link copied to clipboard."
+                                    );
+
+                                }
+
+                            } catch (
+                                error
+                            ) {
+
+                                console.log(
+                                    "Share cancelled."
+                                );
+
+                            }
+
+                        }
+                    );
+
+
+                    actions.appendChild(
+                        shareButton
+                    );
+
+
+                    /* EMBED */
+
+                    const embedButton =
+                        document.createElement(
+                            "button"
+                        );
+
+
+                    embedButton.type =
+                        "button";
+
+
+                    embedButton.className =
+                        "card-btn btn-embed";
+
+
+                    embedButton.innerHTML =
+                        `
+                        <i class="bi bi-code-slash"></i>
+                        Embed
+                        `;
+
+
+                    embedButton.addEventListener(
+                        "click",
+                        function () {
+
+
+                            const pageUrl =
+                                new URL(
+                                    window.location.href
+                                );
+
+
+                            if (
+                                interview.folder
+                            ) {
+
+                                pageUrl.hash =
+                                    `interview-${interview.folder}`;
+
+                            }
+
+
+                            const code =
+                                `<iframe src="${pageUrl.href}" width="100%" height="750" frameborder="0" allow="autoplay" title="${name}"></iframe>`;
+
+
+                            modalTitle.textContent =
+                                `Embed: ${name}`;
+
+
+                            embedCode.value =
+                                code;
+
+
+                            modalBackdrop.classList.add(
+                                "open"
+                            );
+
+                        }
+                    );
+
+
+                    actions.appendChild(
+                        embedButton
+                    );
+
+
+                    content.appendChild(
+                        actions
+                    );
+
+
+                    card.appendChild(
+                        content
+                    );
+
+
+                    interviewsGrid.appendChild(
+                        card
+                    );
+
+                }
+            );
+
+        }
+
+
+        /* =========================================================
+           SEARCH
+           ========================================================= */
+
+        searchInput.addEventListener(
+            "input",
+            function () {
+
+                const searchTerm =
+                    this.value
+                        .toLowerCase()
+                        .trim();
+
+
+                const filtered =
+                    allInterviews.filter(
+                        interview => {
+
+
+                            const name =
+                                getInterviewName(
+                                    interview
+                                )
+                                .toLowerCase();
+
+
+                            const description =
+                                getInterviewDescription(
+                                    interview
+                                )
+                                .toLowerCase();
+
+
+                            const website =
+                                getInterviewWebsite(
+                                    interview
+                                )
+                                .toLowerCase();
+
+
+                            return (
+
+                                name.includes(
+                                    searchTerm
+                                ) ||
+
+                                description.includes(
+                                    searchTerm
+                                ) ||
+
+                                website.includes(
+                                    searchTerm
+                                )
+
+                            );
+
+                        }
+                    );
+
+
+                displayInterviews(
+                    filtered
+                );
+
+            }
+        );
+
+
+        /* =========================================================
+           EMBED MODAL
+           ========================================================= */
+
+        modalClose.addEventListener(
+            "click",
+            function () {
+
+                modalBackdrop.classList.remove(
+                    "open"
+                );
+
+            }
+        );
+
+
+        modalBackdrop.addEventListener(
+            "click",
+            function (event) {
+
+                if (
+                    event.target ===
+                    modalBackdrop
+                ) {
+
+                    modalBackdrop.classList.remove(
+                        "open"
+                    );
+
+                }
+
+            }
+        );
+
+
+        modalCopy.addEventListener(
+            "click",
+            async function () {
+
+                try {
+
+                    await navigator
+                        .clipboard
+                        .writeText(
+                            embedCode.value
+                        );
+
+
+                    modalCopy.innerHTML =
+                        `
+                        <i class="bi bi-check"></i>
+                        Copied
+                        `;
+
+
+                    setTimeout(
+                        function () {
+
+                            modalCopy.innerHTML =
+                                `
+                                <i class="bi bi-clipboard"></i>
+                                Copy Embed Code
+                                `;
+
+                        },
+                        1500
+                    );
+
+
+                } catch (
+                    error
+                ) {
+
+                    embedCode.select();
+
+                    document.execCommand(
+                        "copy"
+                    );
+
+                }
+
+            }
+        );
+
+
+        /* =========================================================
+           LOAD INTERVIEWS
+           ========================================================= */
+
+        async function loadInterviews() {
+
+            try {
+
+                const response =
+                    await fetch(
+                        "interviews.json"
+                    );
+
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        "Unable to load interviews.json"
+                    );
+
+                }
+
+
+                const data =
+                    await response.json();
+
+
+                if (
+                    Array.isArray(data)
+                ) {
+
+                    allInterviews =
+                        data;
+
+                }
+
+                else if (
+                    data &&
+                    Array.isArray(
+                        data.interviews
+                    )
+                ) {
+
+                    allInterviews =
+                        data.interviews;
+
+                }
+
+                else {
+
+                    throw new Error(
+                        "Invalid interviews.json format"
+                    );
+
+                }
+
+
+                displayInterviews(
+                    allInterviews
+                );
+
+            }
+
+
+            catch (error) {
+
+                console.error(
+                    "Interview loading error:",
+                    error
+                );
+
+
+                interviewsGrid.innerHTML = `
+
+                    <div class="message-box">
+
+                        <h3>
+                            Unable to load interviews
+                        </h3>
+
+                        <p>
+                            Please check that
+                            <strong>interviews.json</strong>
+                            is in the same folder as
+                            <strong>index.html</strong>.
+                        </p>
+
+                    </div>
+
+                `;
+
+            }
+
+        }
+
+
+        /* =========================================================
+           START
+           ========================================================= */
+
+        loadInterviews();
+
+    </script>
+
+</body>
+
+</html>

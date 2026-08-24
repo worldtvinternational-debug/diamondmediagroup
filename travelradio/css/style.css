@@ -1,206 +1,443 @@
-body{
+/* =========================================================
+   TRAVEL RADIO AUSTRALIA
+   INTERVIEW ARCHIVE
+   ========================================================= */
 
-margin:0;
 
-font-family:Arial,Helvetica,sans-serif;
+/* BASIC RESET */
 
-background:#081624;
+* {
+    box-sizing: border-box;
+}
 
-color:white;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #1f2933;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.archive-hero {
+    background: #111827;
+    padding: 50px 25px;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* PHOTO */
+
+.hero-photo {
+    flex: 0 0 380px;
+}
+
+.hero-photo img {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    height: 380px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+}
+
+
+/* HERO TEXT */
+
+.hero-content {
+    flex: 1;
+    color: white;
+}
+
+.archive-icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #f4c542;
+}
+
+.hero-content h1 {
+    margin: 0 0 25px 0;
+
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.hero-content h1 span {
+    display: block;
+    color: #f4c542;
+}
+
+.hero-intro {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #d9dee5;
+    margin-bottom: 20px;
+}
+
+.host-credit {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #d9dee5;
+}
+
+.host-credit a {
+    color: #f4c542;
+    text-decoration: none;
+}
+
+.host-credit a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.archive-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 25px 70px;
+}
+
+.interviews-section h2 {
+    margin: 0 0 8px;
+
+    font-size: 36px;
+    color: #1f2933;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+}
+
+.section-heading p {
+    margin: 0;
+    color: #667085;
+    font-size: 17px;
+}
+
+
+/* SEARCH */
+
+.search-box {
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+
+    max-width: 500px;
+
+    background: white;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.search-box i {
+    padding: 14px 16px;
+    color: #667085;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    padding: 14px 15px 14px 0;
+
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   INTERVIEW GRID
+   ========================================================= */
+
+.interview-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fill, minmax(280px, 1fr));
+
+    gap: 25px;
+}
+
+
+/* =========================================================
+   INTERVIEW CARD
+   ========================================================= */
+
+.interview-card {
+    background: white;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.interview-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.13);
+}
+
+
+/* CARD IMAGE */
+
+.card-image {
+    height: 220px;
+    background: #e9ecef;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* CARD CONTENT */
+
+.card-content {
+    padding: 22px;
+}
+
+.card-content h3 {
+    margin: 0 0 12px;
+
+    font-size: 22px;
+    color: #1f2933;
+}
+
+.card-content p {
+    margin: 0 0 20px;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #667085;
+}
+
+
+/* BUTTONS */
+
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.listen-button,
+.transcript-button {
+    display: inline-flex;
+
+    align-items: center;
+    gap: 7px;
+
+    padding: 10px 14px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.listen-button {
+    background: #1f2933;
+    color: white;
+}
+
+.listen-button:hover {
+    background: #374151;
+}
+
+.transcript-button {
+    background: #f4c542;
+    color: #1f2933;
+}
+
+.transcript-button:hover {
+    background: #e6b934;
+}
+
+
+/* =========================================================
+   MESSAGES
+   ========================================================= */
+
+.loading-message,
+.error-message {
+    grid-column: 1 / -1;
+
+    padding: 40px;
+    text-align: center;
+
+    background: white;
+
+    border-radius: 12px;
+}
+
+.loading-message {
+    color: #667085;
+    font-size: 18px;
+}
+
+.loading-message i {
+    margin-right: 8px;
+}
+
+.error-message h3 {
+    margin-top: 0;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+    padding: 25px;
+    text-align: center;
+
+    background: #111827;
+    color: #cbd5e1;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-photo {
+        flex: none;
+    }
+
+    .hero-photo img {
+        max-width: 320px;
+        height: 320px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .archive-icon {
+        margin-top: 10px;
+    }
 
 }
 
-.hero{
+@media (max-width: 500px) {
 
-max-width:1200px;
+    .archive-hero {
+        padding: 30px 18px;
+    }
 
-margin:auto;
+    .archive-main {
+        padding: 35px 18px;
+    }
 
-padding:60px 30px;
+    .hero-photo img {
+        width: 100%;
+        max-width: 280px;
+        height: 280px;
+    }
 
-}
+    .hero-content h1 {
+        font-size: 32px;
+    }
 
-.logo{
-
-height:70px;
-
-margin-bottom:40px;
-
-}
-
-.feature-card{
-
-display:flex;
-
-align-items:center;
-
-gap:50px;
-
-background:#10243c;
-
-padding:45px;
-
-border-radius:22px;
-
-box-shadow:0 25px 60px rgba(0,0,0,.45);
+    .interviews-section h2 {
+        font-size: 30px;
+    }
 
 }
-
-.photo img{
-
-width:320px;
-
-border-radius:18px;
-
-display:block;
-
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.content{
-
-flex:1;
-
-position:relative;
-
+.card-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
 }
 
-.company-logo{
-
-position:absolute;
-
-right:0;
-
-top:0;
-
-width:120px;
-
+.btn-transcript {
+    background: var(--gold);
+    color: #1b2633;
 }
 
-.badge{
-
-display:inline-block;
-
-background:#d4af37;
-
-color:#111;
-
-padding:8px 18px;
-
-border-radius:30px;
-
-font-weight:bold;
-
-margin-bottom:20px;
-
+.btn-download {
+    background: #e8edf2;
+    color: var(--navy);
+    border: 1px solid #d1d8df;
 }
 
-h1{
+.btn-download:hover {
+    background: #dce3e9;
+}
+/* =========================================================
+   FINAL PHOTO OVERRIDE
+   ========================================================= */
 
-font-size:48px;
-
-margin:10px 0;
-
+.interview-card .interview-image {
+    width: 100% !important;
+    height: 220px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    background: #e7ebef !important;
 }
 
-h3{
-
-color:#9bc8ff;
-
-margin-bottom:20px;
-
-}
-
-p{
-
-font-size:20px;
-
-line-height:1.7;
-
-}
-
-.details{
-
-display:flex;
-
-gap:25px;
-
-margin:30px 0;
-
-flex-wrap:wrap;
-
-}
-
-.buttons a{
-
-display:inline-block;
-
-margin-right:15px;
-
-padding:14px 24px;
-
-background:#d4af37;
-
-color:#111;
-
-text-decoration:none;
-
-border-radius:8px;
-
-font-weight:bold;
-
-transition:.3s;
-
-}
-
-.buttons a:hover{
-
-background:white;
-
-}
-.audio-player{
-
-width:100%;
-
-margin:30px 0;
-
-border-radius:10px;
-
-}
-
-.buttons{
-
-display:flex;
-
-gap:15px;
-
-flex-wrap:wrap;
-
-margin-top:20px;
-
-}
-
-.buttons a{
-
-padding:14px 24px;
-
-background:#d4af37;
-
-color:#111;
-
-font-weight:bold;
-
-text-decoration:none;
-
-border-radius:8px;
-
-transition:.3s;
-
-}
-
-.buttons a:hover{
-
-background:white;
-
-transform:translateY(-2px);
-
+.interview-card .interview-image img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    background: #e7ebef !important;
 }
