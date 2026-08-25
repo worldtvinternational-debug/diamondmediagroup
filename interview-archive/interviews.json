@@ -322,9 +322,110 @@
     "transcript": "transcript.pdf",
     "website": "https://www.billpeachjourneys.com.au/",
     "description": "Listen to this Travel Radio Australia interview featuring actor David Hasselhoff with SKI TV' Geoff Harrison"
+   },    
+    {
+    "name": "Isidoro Manzanares Nieto",
+    "folder": "isa",
+    "image": "isa.png",
+    "audio": "isa.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tourspain.es/",
+    "description": "Listen to this Travel Radio Australia interview featuring Isidoro Manzanares Nieto with Tour Spain"
+   },    
+    {
+    "name": "James Cox",
+    "folder": "jamesc",
+    "image": "jamesc.png",
+    "audio": "jamesc.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.blackpoolpleasurebeach.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring James Cox from Blackpool Pleasure Beach"
+   },     
+     {
+    "name": "Johnathon Coote",
+    "folder": "jc",
+    "image": "jc.png",
+    "audio": "jc.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.imdb.com/name/nm0178507/?ref_=nv_sr_srsg_0_tt_0_nm_8_in_0_q_johnathon%20coote",
+    "description": "Listen to this Travel Radio Australia interview featuring actor Johnathon Coote"
+   },    
+   {
+    "name": "Professor Hubert Schwetzler",
+    "folder": "hubert",
+    "image": "hubert.png",
+    "audio": "hubert.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.laloupe.com/stories/sehnsucht-nach-langsamkeit",
+    "description": "Listen to this Travel Radio Australia interview featuring Professor Hubert Schwetzler from Lech Ski Resort"
+   },    
+    {
+    "name": "Mark Hembrow",
+    "folder": "markh",
+    "image": "markh.png",
+    "audio": "markh.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.imdb.com/name/nm0375962/?ref_=fn_t_1",
+    "description": "Listen to this Travel Radio Australia interview featuring actor Mark Hembrow"
+   },    
+     {
+    "name": "Melo Melo Jazz Club Amsterdam",
+    "folder": "melo",
+    "image": "melo.png",
+    "audio": "melo.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.maloemelo.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring actor Mark Hembrow"
+   },    
+     {
+    "name": "David Wensley",
+    "folder": "dave2",
+    "image": "dave2.png",
+    "audio": "dave2.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/dave-wensley-159990133/",
+    "description": "Listen to this Travel Radio Australia interview featuring David Wensley"
+   },    
+     {
+    "name": "William Smith",
+    "folder": "wills",
+    "image": "wills.png",
+    "audio": "wills.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.motorsportauctions.com/msa-stores/silverstone-auctions/",
+    "description": "Listen to this Travel Radio Australia interview featuring William Smith from Silverstone Car Auctions"
+   },   
+      {
+    "name": "Werner Fritz",
+    "folder": "werner",
+    "image": "werner.png",
+    "audio": "werner.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.kaesehaus-montafon.at/home/",
+    "description": "Listen to this Travel Radio Australia interview featuring Werner Fritz from Montafon Cheese Factory Austria"
+   },    
+   {
+    "name": "Craig Haslam",
+    "folder": "craig",
+    "image": "craig.png",
+    "audio": "craig.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://untamedescapes.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Craig Haslam from Untamed Escapes Australia"
+   },
+            {
+    "name": "Will Gabb",
+    "folder": "africa",
+    "image": "africa.png",
+    "audio": "africa.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://thisisafrica.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Will Gabb from This Is Africa"
    }    
-  ]
+  ]   
   
+
+
   
   
   
