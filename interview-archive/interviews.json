@@ -268,8 +268,66 @@
     "transcript": "transcript.pdf",
     "website": "https://heypj.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Michelle Pianowski from Hey PJ Tours"
+   },   
+  {
+    "name": "Lucas Schopman",
+    "folder": "lucas",
+    "image": "lucas.png",
+    "audio": "lucas.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://ambassade-hotel.nl/",
+    "description": "Listen to this Travel Radio Australia interview featuring Lucas Schopman from the Ambassade Hotel Amsterdam"
+   },   
+   {
+    "name": "Stephen Bailey",
+    "folder": "beatles",
+    "image": "beatles.png",
+    "audio": "beatles.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://liverpoolbeatlesmuseum.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Stephen Bailey from the Beatles Shop and Museum Liverpool"
+   },   
+  {
+    "name": "Dar Davies",
+    "folder": "dar",
+    "image": "dar.png",
+    "audio": "dar.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.imdb.com/name/nm0203659/bio/",
+    "description": "Listen to this Travel Radio Australia interview featuring Dar Davies, Australian stuntman"
+   },    
+  {
+    "name": "Ella Dunham",
+    "folder": "ella",
+    "image": "ella.png",
+    "audio": "ella.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.exsus.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Ella Dunham from Exsus Travel"
+   },    
+  {
+    "name": "Fiona Mietchen Painter",
+    "folder": "fiona",
+    "image": "fiona.png",
+    "audio": "fioan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.billpeachjourneys.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Fiona Mietchen Painter from Bill Peach Journeys Australia"
+   },   
+  {
+    "name": "David Hasselhoff",
+    "folder": "hoff",
+    "image": "hoff.png",
+    "audio": "hoff.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.billpeachjourneys.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring actor David Hasselhoff with SKI TV' Geoff Harrison"
    }    
   ]
+  
+  
+  
+  
   
   
 
