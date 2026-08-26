@@ -457,8 +457,55 @@
     "transcript": "transcript.pdf",
     "website": "https://www.facebook.com/Prinsengracht969",
     "description": "Listen to this Travel Radio Australia interview featuring Helena Van Gelder, owner of Prinsengracht 969 B and B Amsterdam"
+   },    
+    {
+    "name": "Deborah Pearce",
+    "folder": "noosa",
+    "image": "noosa.png",
+    "audio": "noosa.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/TourismNoosa/",
+    "description": "Listen to this Travel Radio Australia interview featuring Deborah Pearce from Tourism Noosa Australia"
+   },    
+  {
+    "name": "Michel Ayub",
+    "folder": "saopaulo",
+    "image": "saopaulo.png",
+    "audio": "saopaulo.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://visitesaopaulo.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Michel Ayub from Visit Sao Paulo"
+   },   
+    {
+    "name": "Dael Liddicoat",
+    "folder": "dale",
+    "image": "dale.png",
+    "audio": "dale.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.lediwatermaker.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Dael Liddicoat from Ledi Desalination Australia"
+   },   
+    {
+    "name": "Patrick Ortlieb",
+    "folder": "patrick",
+    "image": "patrick.png",
+    "audio": "patrick.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.montanaoberlech.at/patrick-ortlieb-hotel/",
+    "description": "Listen to this Travel Radio Australia interview featuring Patrick Ortlieb from the Lech Ski Resort in Austria"
+   },    
+     {
+    "name": "Steven Rittey",
+    "folder": "stevenfreewheel",
+    "image": "steven.png",
+    "audio": "steven.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://freewheelholidays.co.uk/",
+    "description": "Listen to this Travel Radio Australia interview featuring Steven Rittey from Freewheel Holidays UK"
    }    
   ]
+
+
   
   
 
