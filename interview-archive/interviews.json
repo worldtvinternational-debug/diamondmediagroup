@@ -412,8 +412,54 @@
     "transcript": "transcript.pdf",
     "website": "https://thisisafrica.com.au/",
     "description": "Listen to this Travel Radio Australia interview featuring Will Gabb from This Is Africa"
+   },    
+      {
+    "name": "Peggy Sues Diner - Owner Casey",
+    "folder": "peggy",
+    "image": "peggy.png",
+    "audio": "peggy.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://peggysuesdiner.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Casey from Peggy Sues Diner USA"
+   },    
+       {
+    "name": "Tracey Lowry",
+    "folder": "tracey",
+    "image": "tracey.jpg",
+    "audio": "tracey.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.travelmanagers.com.au/ptm/TraceyLowry/",
+    "description": "Listen to this Travel Radio Australia interview featuring Tracey Lowry from Travel Managers Australia"
+   },   
+      {
+    "name": "Jose David Aledo",
+    "folder": "valencia",
+    "image": "valencia.jpg",
+    "audio": "valencia.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.visitvalencia.com/en",
+    "description": "Listen to this Travel Radio Australia interview featuring Jose David Aledo from Valencia Tourism"
+   },    
+  {
+    "name": "Palle Bo",
+    "folder": "palle",
+    "image": "palle.png",
+    "audio": "palle.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.theradiovagabond.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring travel journalist Palle Bo"
+   },
+   {
+    "name": "Helena Van Gelder",
+    "folder": "helena",
+    "image": "helena.png",
+    "audio": "helena.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/Prinsengracht969",
+    "description": "Listen to this Travel Radio Australia interview featuring Helena Van Gelder, owner of Prinsengracht 969 B and B Amsterdam"
    }    
-  ]   
+  ]
+  
   
 
 
