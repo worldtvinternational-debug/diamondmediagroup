@@ -502,8 +502,100 @@
     "transcript": "transcript.pdf",
     "website": "https://freewheelholidays.co.uk/",
     "description": "Listen to this Travel Radio Australia interview featuring Steven Rittey from Freewheel Holidays UK"
+   },    
+   {
+    "name": "Slovenia Tourism",
+    "folder": "slovenia",
+    "image": "slovenia.png",
+    "audio": "slovenia.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.slovenia.info/en",
+    "description": "Listen to this Travel Radio Australia interview featuring Alexandria from Slovenia Tourist Board"
+   },   
+    {
+    "name": "Alex Kakalis",
+    "folder": "alexk",
+    "image": "alexk.png",
+    "audio": "alexk.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/alexandros-kakalis-%CE%B1%CE%BB%CE%B5%CE%BE%CE%B1%CE%BD%CE%B4%CF%81%CE%BF%CF%82-%CE%BA%CE%B1%CE%BA%CE%B1%CE%BB%CE%B7%CF%82-29281727/",
+    "description": "Listen to this Travel Radio Australia interview featuring Alex Kakalis from London"
+   },    
+      {
+    "name": "Ava Cherry",
+    "folder": "ava",
+    "image": "ava.png",
+    "audio": "ava.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/theavacherry",
+    "description": "Listen to this Travel Radio Australia interview featuring international singer Ava Cherry"
+   },   
+  {
+    "name": "Tom Allbrand",
+    "folder": "tomall",
+    "image": "tomall.png",
+    "audio": "tomall.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://visit.brussels/en",
+    "description": "Listen to this Travel Radio Australia interview featuring Tom Allbrand from Visit Brussels"
+   },   
+    {
+    "name": "Caroline Blixt",
+    "folder": "caroline",
+    "image": "caroline.png",
+    "audio": "caroline.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/caroline-blixt-60831384/",
+    "description": "Listen to this Travel Radio Australia interview featuring golf and travel professional Caroline Blixt"
+   },    
+     {
+    "name": "Christine Grimble",
+    "folder": "fernie",
+    "image": "fernie.png",
+    "audio": "fernie.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://skifernie.com/resort-guide/",
+    "description": "Listen to this Travel Radio Australia interview featuring Christine Grimble from Fernie Ski Resort"
+   },    
+      {
+    "name": "Andrew Govan",
+    "folder": "earth",
+    "image": "earth.png",
+    "audio": "earth.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://earthadventure.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Andrew Govan from Earth Adventure Australia"
+   },    
+        {
+    "name": "David Cochrane",
+    "folder": "marq",
+    "image": "marq.png",
+    "audio": "marq.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://marqueelimousines.com.au/locations/sydney/",
+    "description": "Listen to this Travel Radio Australia interview featuring David Cochrane from Marquee Limosuines Sydney Australia"
+   },   
+          {
+    "name": "Michael Comley",
+    "folder": "wards",
+    "image": "wards.png",
+    "audio": "wards.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://wardsbrewery.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Michael Comley from Wards Brewery Gladstone Australia"
+   },    
+    {
+    "name": "Olivier Messiaen-Ferrol",
+    "folder": "touring",
+    "image": "touring.png",
+    "audio": "touring.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.touringtreasures.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Olivier Messiaen-Ferrol from Touring Treasures Australia"
    }    
   ]
+
+
 
 
   
