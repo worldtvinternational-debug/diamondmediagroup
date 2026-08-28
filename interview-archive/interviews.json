@@ -592,10 +592,44 @@
     "transcript": "transcript.pdf",
     "website": "https://www.touringtreasures.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Olivier Messiaen-Ferrol from Touring Treasures Australia"
-   }    
-  ]
-
-
+   },    
+    {
+    "name": "Peter Shelley",
+    "folder": "peters",
+    "image": "peters.png",
+    "audio": "peters.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.atec.net.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Peter Shelley from the Australian Tourism Export Council (ATEC)"
+   },    
+   {
+    "name": "David Murphy",
+    "folder": "davidm",
+    "image": "davidm.png",
+    "audio": "davidm.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.rosetravel.ie/",
+    "description": "Listen to this Travel Radio Australia interview featuring David Murphy from Rose Travel Ireland"
+   },  
+{
+    "name": "Mo Garzu",
+    "folder": "backstage",
+    "image": "backstage.png",
+    "audio": "backstage.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.back-stage.nl/nl/",
+    "description": "Listen to this Travel Radio Australia interview featuring Mo Garzu from Backstage Hair and Makeup Amsterdam"
+},
+{
+    "name": "Martina Karakova",
+    "folder": "martinak",
+    "image": "martinak.png",
+    "audio": "martinak.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://slovakia.travel/",
+    "description": "Listen to this Travel Radio Australia interview featuring Martina Karakova from Slovakia Travel"
+}
+]
 
 
   
