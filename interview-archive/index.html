@@ -1944,7 +1944,35 @@
 
                     }
 
+/* DOWNLOAD INTERVIEW */
 
+if (audio) {
+
+    const downloadInterviewButton =
+        document.createElement(
+            "a"
+        );
+
+    downloadInterviewButton.className =
+        "card-btn btn-download";
+
+    downloadInterviewButton.href =
+        audio;
+
+    downloadInterviewButton.download =
+        "";
+
+    downloadInterviewButton.innerHTML =
+        `
+        <i class="bi bi-download"></i>
+        Download Interview
+        `;
+
+    actions.appendChild(
+        downloadInterviewButton
+    );
+
+}
                     /* READ + DOWNLOAD TRANSCRIPT */
 
                     if (transcript) {
