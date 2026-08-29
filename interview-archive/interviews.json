@@ -663,7 +663,7 @@
     "audio": "leon.mp3",
     "transcript": "transcript.pdf",
     "website": "https://awwt.com.au/",
-    "description": "Listen to this Travel  Radio Australia interview featuring Leon Ellis from Australia and Worldwide Travel"
+    "description": "Listen to this Travel Radio Australia interview featuring Leon Ellis from Australia and Worldwide Travel"
 },
 {
     "name": "Natasha Dunn",
@@ -672,7 +672,7 @@
     "audio": "jetlogic.mp3",
     "transcript": "transcript.pdf",
     "website": "https://jet-logic.com/",
-    "description": "Listen to this Travel  Radio Australia interview featuring Natasha Dunn from Jet Logic"
+    "description": "Listen to this Travel Radio Australia interview featuring Natasha Dunn from Jet Logic"
 },
 {
     "name": "Alfred Smolik",
@@ -681,7 +681,7 @@
     "audio": "alfred.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/alfred-smolik-1450a3104/",
-    "description": "Listen to this Travel  Radio Australia interview featuring Alfred Smolik from Management Life TV Austria"
+    "description": "Listen to this Travel Radio Australia interview featuring Alfred Smolik from Management Life TV Austria"
 },
 {
     "name": "Janice Kurrle",
@@ -690,7 +690,52 @@
     "audio": "janice.mp3",
     "transcript": "transcript.pdf",
     "website": "https://tourism.sa.gov.au/",
-    "description": "Listen to this Travel  Radio Australia interview featuring Janice Kurrle from Tourism South Australia"
+    "description": "Listen to this Travel Radio Australia interview featuring Janice Kurrle from Tourism South Australia"
+},
+{
+    "name": "Aaron Bell",
+    "folder": "aaronb",
+    "image": "aaronb.png",
+    "audio": "aaronb.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://kjr.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Aaron Bell from KJR Australia"
+},
+{
+    "name": "Hollie-Berri",
+    "folder": "holly",
+    "image": "holly.png",
+    "audio": "holly.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://7sisters4x4tours.com.au/",
+    "description": "Listen to this Travel Radio tAustralia interview featuring Hollie Berri from 7 Sisters 4x4 Tours Australia"
+},
+{
+    "name": "Escape Band Australia",
+    "folder": "escape",
+    "image": "escape.png",
+    "audio": "escape.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.escapelivemusic.com/",
+    "description": "Listen to this Travel Radio tAustralia interview featuring Escape Band Australia"
+},
+{
+    "name": "Iain Salteri",
+    "folder": "iain",
+    "image": "iain.png",
+    "audio": "iain.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://maytes.co/",
+    "description": "Listen to this Travel Radio Australia interview featuring Iain Salteri from Maytes Australia"
+},
+{
+    "name": "Iain Salteri",
+    "folder": "iain",
+    "image": "iain.png",
+    "audio": "iain.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://maytes.co/",
+    "description": "Listen to this Travel Radio Australia interview featuring Iain Salteri from Maytes Australia"
 }
 ]
 
