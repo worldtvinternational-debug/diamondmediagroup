@@ -628,6 +628,69 @@
     "transcript": "transcript.pdf",
     "website": "https://slovakia.travel/",
     "description": "Listen to this Travel Radio Australia interview featuring Martina Karakova from Slovakia Travel"
+},
+{
+    "name": "Brigadier Kevin O'Brien",
+    "folder": "kevin",
+    "image": "kevin.png",
+    "audio": "kevin.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.longtanbook.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Brigadier Kevin O'Brien"
+},
+{
+    "name": "Nasrulla Adam",
+    "folder": "nasrulla",
+    "image": "nasrulla.png",
+    "audio": "nasrulla.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://corporate.visitmaldives.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Nasrulla Adam from Visit Maldives"
+},
+{
+    "name": "Matthew Heinbach",
+    "folder": "matthewh",
+    "image": "matthewh.png",
+    "audio": "matthewh.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.kataseabreeze.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Matthew Heinbach from Kata Seabreeze Resort Thailand"
+},
+{
+    "name": "Leon Ellis",
+    "folder": "leon",
+    "image": "leon.png",
+    "audio": "leon.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://awwt.com.au/",
+    "description": "Listen to this Travel  Radio Australia interview featuring Leon Ellis from Australia and Worldwide Travel"
+},
+{
+    "name": "Natasha Dunn",
+    "folder": "jetlogic",
+    "image": "jetlogic.png",
+    "audio": "jetlogic.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://jet-logic.com/",
+    "description": "Listen to this Travel  Radio Australia interview featuring Natasha Dunn from Jet Logic"
+},
+{
+    "name": "Alfred Smolik",
+    "folder": "alfred",
+    "image": "alfred.png",
+    "audio": "alfred.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/alfred-smolik-1450a3104/",
+    "description": "Listen to this Travel  Radio Australia interview featuring Alfred Smolik from Management Life TV Austria"
+},
+{
+    "name": "Janice Kurrle",
+    "folder": "janice",
+    "image": "janice.png",
+    "audio": "janice.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://tourism.sa.gov.au/",
+    "description": "Listen to this Travel  Radio Australia interview featuring Janice Kurrle from Tourism South Australia"
 }
 ]
 
