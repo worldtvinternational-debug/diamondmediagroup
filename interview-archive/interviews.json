@@ -799,6 +799,15 @@
     "transcript": "transcript.pdf",
     "website": "https://xylen.net/",
     "description": "Listen to this Travel Radio Australia interview featuring Haider Mustafah from Xylen Management"
+},
+{
+    "name": "Ting Ting Guo",
+    "folder": "tingting",
+    "image": "tingting.png",
+    "audio": "tingting.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tours4fun.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Ting Ting Guo from Tours 4 Fun"
 }
 ]
 
