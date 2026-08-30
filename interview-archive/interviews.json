@@ -754,7 +754,54 @@
     "transcript": "transcript.pdf",
     "website": "https://www.leeanneenoch.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Leanne Enoch MP State Parliament, Queensland, Australia"
+},
+{
+    "name": "Joachim Thomas",
+    "folder": "andorra",
+    "image": "andorra.png",
+    "audio": "andorra.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://visitandorra.com/en/",
+    "description": "Listen to this Travel Radio Australia interview featuring Joachim Thomas from Visit Andorra"
+},
+{
+    "name": "Sinead Murray",
+    "folder": "ireland",
+    "image": "ireland.png",
+    "audio": "ireland.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tourismireland.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Sinead Murray from Tourism Ireland"
+},
+{
+    "name": "Barrel Atelier - Jan",
+    "folder": "barrel",
+    "image": "barrel.png",
+    "audio": "barrel.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.barrelatelier.nl/en/",
+    "description": "Listen to this Travel Radio Australia interview featuring Jan from Barrel Altlier"
+},
+{
+    "name": "Nadesh Premam",
+    "folder": "frozen",
+    "image": "frozen.png",
+    "audio": "frozen.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://frozenbrothers.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Nadesh Premam from Frozen Brothers Worldwide"
+},
+{
+    "name": "Haider Mustafah",
+    "folder": "haider",
+    "image": "haider.png",
+    "audio": "haider.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://xylen.net/",
+    "description": "Listen to this Travel Radio Australia interview featuring Haider Mustafah from Xylen Management"
 }
+]
+
 
 
 
