@@ -702,13 +702,13 @@
     "description": "Listen to this Travel Radio Australia interview featuring Aaron Bell from KJR Australia"
 },
 {
-    "name": "Hollie-Berri",
+    "name": "Hollie-Berri McQueen",
     "folder": "holly",
     "image": "holly.png",
     "audio": "holly.mp3",
     "transcript": "transcript.pdf",
     "website": "https://7sisters4x4tours.com.au/",
-    "description": "Listen to this Travel Radio tAustralia interview featuring Hollie Berri from 7 Sisters 4x4 Tours Australia"
+    "description": "Listen to this Travel Radio tAustralia interview featuring Hollie Berri McQueen from 7 Sisters 4x4 Tours Australia"
 },
 {
     "name": "Escape Band Australia",
@@ -801,13 +801,13 @@
     "description": "Listen to this Travel Radio Australia interview featuring Ting Ting Guo from Tours 4 Fun"
 },
 {
-    "name": "Robert Jan Weltering",
+    "name": "Robert Jan Woltering",
     "folder": "robertvan",
     "image": "robertvan.png",
     "audio": "robertvan.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.deleurope.com/",
-    "description": "Listen to this Travel Radio Australia interview featuring Robert Van Weltering from De L Europe Hotel Amsterdam"
+    "description": "Listen to this Travel Radio Australia interview featuring Robert Jan Woltering from De L Europe Hotel Amsterdam"
 }
 ]
 
