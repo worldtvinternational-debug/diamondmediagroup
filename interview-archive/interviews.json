@@ -738,15 +738,6 @@
     "description": "Listen to this Travel Radio Australia interview featuring Philip Britton from the Kennedy Space Center"
 },
 {
-    "name": "Gavin Andrews",
-    "folder": "Observer",
-    "image": "observer.png",
-    "audio": "observer.mp3",
-    "transcript": "transcript.pdf",
-    "website": "https://theobserverhotel.com/",
-    "description": "Listen to this Travel Radio Australia interview featuring Gavin Andrews from the Observer Hotel in Sydney, Australia"
-},
-{
     "name": "Leanne Enoch MP",
     "folder": "leannee",
     "image": "leannee.png",
@@ -808,6 +799,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.tours4fun.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Ting Ting Guo from Tours 4 Fun"
+},
+{
+    "name": "Robert Van Weltering",
+    "folder": "robertvan",
+    "image": "robertvan.png",
+    "audio": "robertvan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.deleurope.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Robert Van Weltering from De L Europe Hotel Amsterdam"
 }
 ]
 
