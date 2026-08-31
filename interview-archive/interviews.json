@@ -808,8 +808,173 @@
     "transcript": "transcript.pdf",
     "website": "https://www.deleurope.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Robert Jan Woltering from De L Europe Hotel Amsterdam"
+},
+{
+    "name": "Hon. Glenn Butcher MP",
+    "folder": "glenn",
+    "image": "glenn.png",
+    "audio": "glenn.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/glennbutchermp/",
+    "description": "Listen to this Travel Radio Australia interview featuring Glenn Butcher MP from the Queensland Parliament"
+},
+{
+    "name": "Dillen Majithia",
+    "folder": "dylan",
+    "image": "dylan.png",
+    "audio": "dylan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.goldentours.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Dillen Majithia from Golden Tours London"
+},
+{
+    "name": "Aya Kihara",
+    "folder": "golfjapan",
+    "image": "golfjapan.png",
+    "audio": "golfjapan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://blog.thegolfjapan.jp/",
+    "description": "Listen to this Travel Radio Australia interview featuring Aya Kihara from The Golf Japan"
+},
+{
+    "name": "Deborah Pearce",
+    "folder": "rawnsley",
+    "image": "rawnsley",
+    "audio": "rawnsley",
+    "transcript": "transcript.pdf",
+    "website": "https://www.rawnsleypark.com.au/",
+    "description": "Listen to this Travel Radio Australia interview featuring Deborah Pearce from Rawnsley Park Station Australia"
+},
+{
+    "name": "Lana Kanchik",
+    "folder": "lana",
+    "image": "lana",
+    "audio": "lana",
+    "transcript": "transcript.pdf",
+    "website": "https://www.travelmanagers.com.au/ptm/lanakanchik/",
+    "description": "Listen to this Travel Radio Australia interview featuring Lana Kanchick from Travel Managers Australia"
+},
+{
+    "name": "Lana Kanchik",
+    "folder": "lana",
+    "image": "lana",
+    "audio": "lana",
+    "transcript": "transcript.pdf",
+    "website": "https://www.travelmanagers.com.au/ptm/lanakanchik/",
+    "description": "Listen to this Travel Radio Australia interview featuring Lana Kanchick from Travel Managers Australia"
+},
+{
+    "name": "John Laws Tribute",
+    "folder": "johnlaws",
+    "image": "johnlaws",
+    "audio": "johnlaws",
+    "transcript": "transcript.pdf",
+    "website": "https://www.youtube.com/watch?v=CYvpU1z2iLU",
+    "description": "Listen to this Travel Radio Australia interview featuring a John Laws Tribute with Geoff Harrison and Craig Willis"
+},
+{
+    "name": "Matt Hanrahan",
+    "folder": "matth",
+    "image": "matth",
+    "audio": "matth",
+    "transcript": "transcript.pdf",
+    "website": "https://www.outliergrp.com/about",
+    "description": "Listen to this Travel Radio Australia interview featuring Matt Hanrahan and Franky Van Hage"
+},
+{
+    "name": "Jennifer Cornelia",
+    "folder": "micil",
+    "image": "micil",
+    "audio": "micil",
+    "transcript": "transcript.pdf",
+    "website": "https://micildistillery.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Jenifer Cornelia from Micil Distillery Ireland"
+},
+{
+    "name": "Michael Healy MP",
+    "folder": "michaelhealy",
+    "image": "michaelhealy",
+    "audio": "michaelhealy",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/michael-healy-755896267/",
+    "description": "Listen to this Travel Radio Australia interview featuring Michael Healy MP from Queensland Government"
+},
+{
+    "name": "Adam Thomas",
+    "folder": "adamthomas",
+    "image": "adamthomas",
+    "audio": "adamthomas",
+    "transcript": "transcript.pdf",
+    "website": "https://www.instagram.com/adam__thomas_merimbula/",
+    "description": "Listen to this Travel Radio Australia interview featuring world traveler Adam Thomas"
+},
+{
+    "name": "Cr. Matt Burnett",
+    "folder": "mattburnett",
+    "image": "mattburnett",
+    "audio": "mattburnett",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/matt-burnett-1757b1110/",
+    "description": "Listen to this Travel Radio Australia interview featuring Cr. Matt Burnett - Mayor of the Gladstone Regional Council"
+},
+{
+    "name": "Miriam Pullman",
+    "folder": "oneworld",
+    "image": "oneworld",
+    "audio": "oneworld",
+    "transcript": "transcript.pdf",
+    "website": "https://www.oneworld.com/airport-lounges/oneworld-lounges/ams",
+    "description": "Listen to this Travel Radio Australia interview featuring Miriam Pullman from the One World Lounge, Amsterdam"
+},
+{
+    "name": "Ross Oliver",
+    "folder": "rossoliver",
+    "image": "rossoliver",
+    "audio": "rossoliver",
+    "transcript": "transcript.pdf",
+    "website": "https://www.galgormcastle.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Ross Oliver, Director of Golf at Galgorm Castle Ireland"
+},
+{
+    "name": "Reuben Gray",
+    "folder": "ruben",
+    "image": "ruben.png",
+    "audio": "ruben.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/reuben-gray-2b7b10297/",
+    "description": "Listen to this Travel Radio Australia interview featuring Reuben Gray - Director King of the Hill Nepal"
+},
+{
+    "name": "Steven Miles MP",
+    "folder": "miles",
+    "image": "miles.png",
+    "audio": "miles.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/reuben-gray-2b7b10297/",
+    "description": "Listen to this Travel Radio Australia interview featuring Steven Miles MP - Parliament, Queensland Australia"
+},
+{
+    "name": "Steven Miles MP",
+    "folder": "miles",
+    "image": "miles.png",
+    "audio": "miles.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/reuben-gray-2b7b10297/",
+    "description": "Listen to this Travel Radio Australia interview featuring Steven Miles MP - Parliament, Queensland Australia"
+},
+{
+    "name": "Alan Broderibb",
+    "folder": "subzero",
+    "image": "subzero.png",
+    "audio": "subzero.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.thoroughbredracing.com/articles/1900/how-subzero-became-australias-horse/",
+    "description": "Listen to this Travel Radio Australia interview featuring Alan Brodribb - owner - Subzero"
 }
 ]
+
+
+
 
 
 
