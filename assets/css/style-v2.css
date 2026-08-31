@@ -1408,3 +1408,19 @@ TRUST BAR
     font-weight:600;
 
 }
+/* ==========================================
+   INVESTOR PACK DOWNLOAD BUTTON
+========================================== */
+
+.btn-download {
+    background: var(--gold);
+    color: #1b2633;
+    border: 1px solid var(--gold);
+    font-weight: 600;
+}
+
+.btn-download:hover {
+    background: var(--gold);
+    color: #1b2633;
+    border-color: var(--gold);
+}
