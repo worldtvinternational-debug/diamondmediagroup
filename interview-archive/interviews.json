@@ -839,8 +839,8 @@
 {
     "name": "Deborah Pearce",
     "folder": "rawnsley",
-    "image": "rawnsley",
-    "audio": "rawnsley",
+    "image": "rawnsley.png",
+    "audio": "rawnsley.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.rawnsleypark.com.au/",
     "description": "Listen to this Travel Radio Australia interview featuring Deborah Pearce from Rawnsley Park Station Australia"
@@ -848,17 +848,8 @@
 {
     "name": "Lana Kanchik",
     "folder": "lana",
-    "image": "lana",
-    "audio": "lana",
-    "transcript": "transcript.pdf",
-    "website": "https://www.travelmanagers.com.au/ptm/lanakanchik/",
-    "description": "Listen to this Travel Radio Australia interview featuring Lana Kanchick from Travel Managers Australia"
-},
-{
-    "name": "Lana Kanchik",
-    "folder": "lana",
-    "image": "lana",
-    "audio": "lana",
+    "image": "lana.png",
+    "audio": "lana.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.travelmanagers.com.au/ptm/lanakanchik/",
     "description": "Listen to this Travel Radio Australia interview featuring Lana Kanchick from Travel Managers Australia"
@@ -866,8 +857,8 @@
 {
     "name": "John Laws Tribute",
     "folder": "johnlaws",
-    "image": "johnlaws",
-    "audio": "johnlaws",
+    "image": "johnlaws.png",
+    "audio": "johnlaws.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.youtube.com/watch?v=CYvpU1z2iLU",
     "description": "Listen to this Travel Radio Australia interview featuring a John Laws Tribute with Geoff Harrison and Craig Willis"
@@ -875,8 +866,8 @@
 {
     "name": "Matt Hanrahan",
     "folder": "matth",
-    "image": "matth",
-    "audio": "matth",
+    "image": "matth.png",
+    "audio": "matth.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.outliergrp.com/about",
     "description": "Listen to this Travel Radio Australia interview featuring Matt Hanrahan and Franky Van Hage"
@@ -884,8 +875,8 @@
 {
     "name": "Jennifer Cornelia",
     "folder": "micil",
-    "image": "micil",
-    "audio": "micil",
+    "image": "micil.png",
+    "audio": "micil.mp3",
     "transcript": "transcript.pdf",
     "website": "https://micildistillery.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Jenifer Cornelia from Micil Distillery Ireland"
@@ -893,8 +884,8 @@
 {
     "name": "Michael Healy MP",
     "folder": "michaelhealy",
-    "image": "michaelhealy",
-    "audio": "michaelhealy",
+    "image": "michaelhealy.png",
+    "audio": "michaelhealy.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/michael-healy-755896267/",
     "description": "Listen to this Travel Radio Australia interview featuring Michael Healy MP from Queensland Government"
@@ -902,8 +893,8 @@
 {
     "name": "Adam Thomas",
     "folder": "adamthomas",
-    "image": "adamthomas",
-    "audio": "adamthomas",
+    "image": "adamthomas.png",
+    "audio": "adamthomas.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.instagram.com/adam__thomas_merimbula/",
     "description": "Listen to this Travel Radio Australia interview featuring world traveler Adam Thomas"
@@ -911,8 +902,8 @@
 {
     "name": "Cr. Matt Burnett",
     "folder": "mattburnett",
-    "image": "mattburnett",
-    "audio": "mattburnett",
+    "image": "mattburnett.png",
+    "audio": "mattburnett.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/matt-burnett-1757b1110/",
     "description": "Listen to this Travel Radio Australia interview featuring Cr. Matt Burnett - Mayor of the Gladstone Regional Council"
@@ -920,8 +911,8 @@
 {
     "name": "Miriam Pullman",
     "folder": "oneworld",
-    "image": "oneworld",
-    "audio": "oneworld",
+    "image": "oneworld.png",
+    "audio": "oneworld.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.oneworld.com/airport-lounges/oneworld-lounges/ams",
     "description": "Listen to this Travel Radio Australia interview featuring Miriam Pullman from the One World Lounge, Amsterdam"
@@ -929,8 +920,8 @@
 {
     "name": "Ross Oliver",
     "folder": "rossoliver",
-    "image": "rossoliver",
-    "audio": "rossoliver",
+    "image": "rossoliver.png",
+    "audio": "rossoliver.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.galgormcastle.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Ross Oliver, Director of Golf at Galgorm Castle Ireland"
@@ -943,15 +934,6 @@
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/reuben-gray-2b7b10297/",
     "description": "Listen to this Travel Radio Australia interview featuring Reuben Gray - Director King of the Hill Nepal"
-},
-{
-    "name": "Steven Miles MP",
-    "folder": "miles",
-    "image": "miles.png",
-    "audio": "miles.mp3",
-    "transcript": "transcript.pdf",
-    "website": "https://www.linkedin.com/in/reuben-gray-2b7b10297/",
-    "description": "Listen to this Travel Radio Australia interview featuring Steven Miles MP - Parliament, Queensland Australia"
 },
 {
     "name": "Steven Miles MP",
