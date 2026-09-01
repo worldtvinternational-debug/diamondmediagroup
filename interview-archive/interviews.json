@@ -952,6 +952,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.thoroughbredracing.com/articles/1900/how-subzero-became-australias-horse/",
     "description": "Listen to this Travel Radio Australia interview featuring Alan Brodribb - owner - Subzero"
+},
+{
+    "name": "Pacific Airshow",
+    "folder": "airshow",
+    "image": "airshow.png",
+    "audio": "airshow.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.pacificairshow.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison from Travel Radio Australia"
 }
 ]
 
