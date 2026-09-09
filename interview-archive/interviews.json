@@ -961,6 +961,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.pacificairshow.com",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison from Travel Radio Australia"
+},
+{
+    "name": "Clinton Cardozo",
+    "folder": "clinton",
+    "image": "clinton.png",
+    "audio": "clinton.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.onereg.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Clinton Cardozo One Reg Travel"
 }
 ]
 
