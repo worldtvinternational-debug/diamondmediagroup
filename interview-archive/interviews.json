@@ -108,6 +108,15 @@
     "description": "Listen to this Travel Radio Australia interview featuring John Boulding from Vox Tours"
   },
    {
+    "name": "Derryn Hinch Tribute",
+    "folder": "derryn",
+    "image": "derryn.png",
+    "audio": "derryn.mp3",
+    "transcript": "transcript.pdf",
+    "website": "",
+    "description": "Listen to this Travel Radio Australia tribute to broadcaster Derryn Hinch"
+  },
+   {
     "name": "Matthew Thompson",
     "folder": "mattsurf",
     "image": "mattsurf.png",
