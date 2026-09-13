@@ -113,7 +113,7 @@
     "image": "derryn.png",
     "audio": "derryn.mp3",
     "transcript": "transcript.pdf",
-    "website": "",
+    "website": "https://www.youtube.com/watch?v=TDeYtJgt1tE",
     "description": "Listen to this Travel Radio Australia tribute to broadcaster Derryn Hinch"
   },
    {
@@ -979,7 +979,43 @@
     "transcript": "transcript.pdf",
     "website": "https://www.onereg.com",
     "description": "Listen to this Travel Radio Australia interview featuring Clinton Cardozo One Reg Travel"
-}
+},
+{
+    "name": "Mark Duckworth",
+    "folder": "markduck",
+    "image": "markduck.png",
+    "audio": "markduck.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://bluesonbroadbeach.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Mark Duckworth from Blues on Broadbeach"
+},
+{
+    "name": "Cameron Dick",
+    "folder": "camerondick",
+    "image": "camerondick.png",
+    "audio": "camerondick.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/camerondickmp/",
+    "description": "Listen to this Travel Radio Australia interview featuring Cameron Dick MPfrom Queensland Parliament"
+},
+{
+    "name": "Chris Janssen",
+    "folder": "chrisjanssen",
+    "image": "chrisjanssen.png",
+    "audio": "chrisjanssen.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/chrisjanssen1/",
+    "description": "Listen to this Travel Radio Australia interview featuring Chris Janssen from Sail Amsterdam"
+},
+{
+    "name": "Claire Flynn",
+    "folder": "clairef",
+    "image": "clairef",
+    "audio": "clairef.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.shavedcocktails.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Claire Flynn from Shaved Cocktails Gold Coast"
+},
 ]
 
 
