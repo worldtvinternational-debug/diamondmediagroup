@@ -996,13 +996,13 @@
     "audio": "camerondick.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/camerondickmp/",
-    "description": "Listen to this Travel Radio Australia interview featuring Cameron Dick MPfrom Queensland Parliament"
+    "description": "Listen to this Travel Radio Australia interview featuring Cameron Dick MP from Queensland Parliament"
 },
 {
     "name": "Chris Janssen",
-    "folder": "chrisjanssen",
-    "image": "chrisjanssen.png",
-    "audio": "chrisjanssen.mp3",
+    "folder": "chrisj",
+    "image": "chrisj.png",
+    "audio": "chrisj.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/chrisjanssen1/",
     "description": "Listen to this Travel Radio Australia interview featuring Chris Janssen from Sail Amsterdam"
@@ -1010,12 +1010,12 @@
 {
     "name": "Claire Flynn",
     "folder": "clairef",
-    "image": "clairef",
+    "image": "clairef.png",
     "audio": "clairef.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.shavedcocktails.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Claire Flynn from Shaved Cocktails Gold Coast"
-},
+}
 ]
 
 
