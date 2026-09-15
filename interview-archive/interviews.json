@@ -1114,8 +1114,27 @@
     "transcript": "transcript.pdf",
     "website": "https://www.visitgreenwich.org.uk/",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Greenwich London Tour"
+},
+{
+    "name": "Bateaux London Tour",
+    "folder": "bateaux",
+    "image": "bateaux.png",
+    "audio": "bateaux.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.thamesdinnercruise.co.uk/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Bateaux London Cruise Tour"
+},
+{
+    "name": "Philip Allport",
+    "folder": "flynorse",
+    "image": "flynorse.png",
+    "audio": "flynorse.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://flynorse.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Philip Allport from Fly Norse Airlines"
 }
 ]
+
 
 
 
