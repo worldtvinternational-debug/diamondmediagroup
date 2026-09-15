@@ -1132,6 +1132,15 @@
     "transcript": "transcript.pdf",
     "website": "https://flynorse.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Philip Allport from Fly Norse Airlines"
+},
+{
+    "name": "Zad Amsterdam",
+    "folder": "zad1",
+    "image": "zad1.png",
+    "audio": "zad1.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/zadok.jaring",
+    "description": "Listen to this Travel Radio Australia interview featuring Zadok from Amsterdam"
 }
 ]
 
