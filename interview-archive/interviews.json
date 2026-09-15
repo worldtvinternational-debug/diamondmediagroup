@@ -1015,8 +1015,63 @@
     "transcript": "transcript.pdf",
     "website": "https://www.shavedcocktails.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Claire Flynn from Shaved Cocktails Gold Coast"
+},
+{
+    "name": "Steven Krijger",
+    "folder": "stevenk",
+    "image": "stevenk.png",
+    "audio": "stevenk.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://mollyinamsterdam.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Steven Krijger from Molly Malones Amsterdam"
+},
+{
+    "name": "Andy Roberts",
+    "folder": "andyroberts",
+    "image": "andyroberts.png",
+    "audio": "andyroberts.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://visitnorthamptonshire.co.uk/",
+    "description": "Listen to this Travel Radio Australia interview featuring Andy Roberts from Visit Northamptonshire UK"
+},
+{
+    "name": "Clarke Gilmore",
+    "folder": "clarke",
+    "image": "clarke.png",
+    "audio": "clarke.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.cavernclub.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Clarke Gilmore from Cavern Club Liverpool"
+}
+{
+    "name": "Siobhan De Jong",
+    "folder": "siobhan",
+    "image": "siobhan.png",
+    "audio": "siobhan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/siobhan.dejong.5",
+    "description": "Listen to this Travel Radio Australia interview featuring Siobhan De Jong from Naarden, Netherlands"
+},
+{
+    "name": "Paul Wild",
+    "folder": "paulwild",
+    "image": "paulwild.png",
+    "audio": "paulwild.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/paul.wild.754",
+    "description": "Listen to this Travel Radio Australia interview featuring Paul Wild Actor"
+},
+{
+    "name": "Zaandvoort Tourism",
+    "folder": "zaandvoort",
+    "image": "zaandvoort.png",
+    "audio": "zaandvoort.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://visitzandvoort.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Zaandvoort Tourism Netherlands"
 }
 ]
+
 
 
 
