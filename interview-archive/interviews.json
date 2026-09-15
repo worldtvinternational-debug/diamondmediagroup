@@ -1141,6 +1141,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.facebook.com/zadok.jaring",
     "description": "Listen to this Travel Radio Australia interview featuring Zadok from Amsterdam"
+},
+{
+    "name": "Alex Kosenko",
+    "folder": "alexk",
+    "image": "alexk.png",
+    "audio": "alexk.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.alexkosenkomusic.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring musician Alex Kosenko"
 }
 ]
 
