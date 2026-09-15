@@ -1089,13 +1089,13 @@
     "description": "Listen to this Travel Radio Australia interview featuring Owen Powell from Tonga Tourism"
 },
 {
-    "name": "Gothenborg Tourism",
+    "name": "Gothenburg Tourism",
     "folder": "gothenborg",
     "image": "gothenborg.png",
     "audio": "gothenborg.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.goteborg.com/en",
-    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Gothenborg Tourism Sweden"
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Gothenburg Tourism Sweden"
 },
 {
     "name": "Eccentric Englishan Northampton",
@@ -1105,6 +1105,15 @@
     "transcript": "transcript.pdf",
     "website": "https://cafe-restaurant-bar.uk/northampton/the-eccentric-englishman-afternoon-tea-cocktail-bar-private-venue-hire/",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Eccentric Englishman Northampton"
+},
+{
+    "name": "Greenwich London Tour",
+    "folder": "greenwich",
+    "image": "greenwich.png",
+    "audio": "greenwich.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.visitgreenwich.org.uk/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Greenwich London Tour"
 }
 ]
 
