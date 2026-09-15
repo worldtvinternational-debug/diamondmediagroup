@@ -1069,6 +1069,42 @@
     "transcript": "transcript.pdf",
     "website": "https://visitzandvoort.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Zaandvoort Tourism Netherlands"
+},
+{
+    "name": "New York Tour",
+    "folder": "newyork",
+    "image": "newyork.png",
+    "audio": "newyork.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.nyctourism.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting New York City"
+},
+{
+    "name": "Owen Powell",
+    "folder": "tonga",
+    "image": "tonga.png",
+    "audio": "tonga.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tongatourism.travel/",
+    "description": "Listen to this Travel Radio Australia interview featuring Owen Powell from Tonga Tourism"
+},
+{
+    "name": "Gothenborg Tourism",
+    "folder": "gothenborg",
+    "image": "gothenborg.png",
+    "audio": "gothenborg.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.goteborg.com/en",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Gothenborg Tourism Sweden"
+},
+{
+    "name": "Eccentric Englishan Northampton",
+    "folder": "eccentric",
+    "image": "eccentric.png",
+    "audio": "eccentric.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://cafe-restaurant-bar.uk/northampton/the-eccentric-englishman-afternoon-tea-cocktail-bar-private-venue-hire/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison visiting Eccentric Englishman Northampton"
 }
 ]
 
