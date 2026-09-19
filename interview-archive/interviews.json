@@ -385,7 +385,16 @@
     "transcript": "transcript.pdf",
     "website": "https://www.linkedin.com/in/dave-wensley-159990133/",
     "description": "Listen to this Travel Radio Australia interview featuring David Wensley"
-   },    
+   },
+     {
+    "name": "Amsterdam New Year 2024/2025 with Big Franky",
+    "folder": "franky",
+    "image": "franky.png",
+    "audio": "franky.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.facebook.com/bigfranky.dejager/",
+    "description": "Listen to this Travel Radio Australia interview featuring Amsterdams Big Franky and Geoff Harrison"
+},
    {
     "name": "William Smith",
     "folder": "wills",
@@ -1150,6 +1159,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.alexkosenkomusic.com/",
     "description": "Listen to this Travel Radio Australia interview featuring musician Alex Kosenko"
+},
+{
+    "name": "Jurgen - Big Franky - Melo Melo",
+    "folder": "melo",
+    "image": "melo.png",
+    "audio": "melo.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.melomelo.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Melo Melo manager Jurgen"
 }
 ]
 
