@@ -1231,6 +1231,42 @@
     "transcript": "transcript.pdf",
     "website": "https://wellington.new-york-city-hotel.net/en/",
     "description": "Listen to this Travel Radio Australia interview featuring Lucille Yokell from the Wellington New York City Hotel"
+},
+{
+    "name": "Niall Watters",
+    "folder": "niallwatters",
+    "image": "niallwatters.png",
+    "audio": "niallwatters.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/niallwatters1/",
+    "description": "Listen to this Travel Radio Australia interview featuring Niall Watters from Carlichauns TV Ireland"
+},
+{
+    "name": "Iain Balshaw MBE",
+    "folder": "iainbalshaw",
+    "image": "iainbalshaw.png",
+    "audio": "iainbalshaw.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/iain-balshaw-a9768b46/",
+    "description": "Listen to this Travel Radio Australia interview featuring Iain Balshaw MBE"
+},
+{
+    "name": "Grace Harrison - BASI Level 1 Ski Instructor",
+    "folder": "graceharrison",
+    "image": "graceharrison.png",
+    "audio": "graceharrison.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.linkedin.com/in/grace-harrison-846a58225/",
+    "description": "Listen to this Travel Radio Australia interview featuring Grace Harrison - BASI Level 1 Ski Instructor"
+},
+{
+    "name": "Julie Jenkins",
+    "folder": "juliejenkins",
+    "image": "juliejenkins.png",
+    "audio": "juliejenkins.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.saalbach.com/en",
+    "description": "Listen to this Travel Radio Australia interview featuring Julie Jenkins from Saalbach Hinterglemm Ski Resort"
 }
 ]
   
