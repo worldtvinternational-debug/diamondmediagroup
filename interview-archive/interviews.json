@@ -1204,10 +1204,35 @@
     "transcript": "transcript.pdf",
     "website": "https://www.olympics.com.au/news/dani-scott-soars-to-aerials-silver/",
     "description": "Listen to this Travel Radio Australia interview featuring Olympic Silver Medalist Danielle Scott"
+},
+{
+    "name": "Dan Keely",
+    "folder": "dankeely",
+    "image": "dankeely.png",
+    "audio": "dankeely.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.snow-camp.org.uk/",
+    "description": "Listen to this Travel Radio Australia interview featuring Dan Keely from Snow Camp UK"
+},
+{
+    "name": "Maggie Boto White",
+    "folder": "maggiebotowhite",
+    "image": "maggiebotowhite.png",
+    "audio": "maggiebotowhite.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.aircanada.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Maggie Boto White from Air Canada"
+},
+{
+    "name": "Lucille Yokell",
+    "folder": "lucilleyokell",
+    "image": "lucilleyokell.png",
+    "audio": "lucilleyokell.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://wellington.new-york-city-hotel.net/en/",
+    "description": "Listen to this Travel Radio Australia interview featuring Lucille Yokell from the Wellington New York City Hotel"
 }
 ]
-
-
   
   
 
