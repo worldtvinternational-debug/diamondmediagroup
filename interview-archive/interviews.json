@@ -1,5 +1,23 @@
 [
   {
+    "name": "Steve Makris - The Seventh Seat TV Series",
+    "folder": "makris",
+    "image": "makris.png",
+    "audio": "makris.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.theseventhseat.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison and Steve Makris from The Seventh Seat TV Series"
+  },
+    {
+    "name": "Michael Tear",
+    "folder": "mtear",
+    "image": "mtear.png",
+    "audio": "mtear.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.wildbear.tv",
+    "description": "Listen to this Travel Radio Australia interview featuring Micheal Tear from Wild Bear TV"
+  },
+    {
     "name": "Bruce Rosard",
     "folder": "bruce",
     "image": "bruce.png",
@@ -15,7 +33,7 @@
     "audio": "janelle-vissar.mp3",
     "transcript": "transcript.pdf",
     "website": "https://arival.travel/",
-    "description": "Listen to this Travel Radio Australia interview featuring Janelle Vissar from arival.travel"
+    "description": "Listen to this Travel Radio Australia interview featuring Janelle Visser from arival.travel"
   },
   {
     "name": "Brett Melville",
@@ -35,7 +53,7 @@
     "website": "https://www.tripworks.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Aaron Fessler from tripworks.com"
   },
-    {
+  {
     "name": "Aldwyn Altuney",
     "folder": "aldwyn",
     "image": "aldwyn.png",
@@ -44,7 +62,7 @@
     "website": "https://aaxpose.com/media-3/",
     "description": "Listen to this Travel Radio Australia interview featuring Aldwyn Altuney from AA Xpose"
   },
-{
+  {
     "name": "Ben Roberts",
     "folder": "ben-roberts",
     "image": "ben-roberts.png",
@@ -54,24 +72,24 @@
     "description": "Listen to this Travel Radio Australia interview featuring Ben Roberts from Queensland Rail"
   },
 {
-    "name": "Dean Iverson",
-    "folder": "dean",
-    "image": "dean.png",
-    "audio": "dean.mp3",
-    "transcript": "transcript.pdf",
-    "website": "https://www.iversonforest.com/",
-    "description": "Listen to this Travel Radio Australia interview featuring Dean Iverson from Total Defence Australia"
-  },
-{
+  "name": "Dean Iverson",
+  "folder": "dean",
+  "image": "dean.png",
+  "audio": "dean.mp3",
+  "transcript": "transcript.pdf",
+  "website": "https://www.iversonforest.com/",
+  "description": "Listen to this Travel Radio Australia interview featuring Dean Iverson from Total Defence Australia"
+},
+  {
     "name": "Letitia Stephenson",
     "folder": "letitia",
     "image": "letitia.png",
     "audio": "letitia.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.yonderhq.com/",
-    "description": "Listen to this Travel Radio Australia interview featuring Letitia Stephenson from Yonder HQ Australia"
+    "description": "Listen to this Travel Radio Australia interview featuring Letitia Stephenson from Yonder"
   },
-{
+  {
     "name": "Des Hosie",
     "folder": "des",
     "image": "des.png",
@@ -1302,7 +1320,7 @@
     "audio": "geoff1.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.diamondmediagroup.com.au/",
-    "description": "Listen to this SKI TV interview featuring Geoff Harrison and Aldwyn Altuney"
+    "description": "Listen to this Media Queen TV interview featuring Geoff Harrison and Aldwyn Altuney"
 }
 ]
   
