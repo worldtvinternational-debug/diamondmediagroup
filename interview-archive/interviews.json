@@ -17,6 +17,15 @@
     "website": "https://www.wildbear.tv",
     "description": "Listen to this Travel Radio Australia interview featuring Micheal Tear from Wild Bear TV"
   },
+      {
+    "name": "Nel Minchin",
+    "folder": "nelminchin",
+    "image": "nelminchin.png",
+    "audio": "nelminchin.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.easytiger.tv",
+    "description": "Listen to this Travel Radio Australia interview featuring Nel Minchin from Easy Tiger Productions"
+  },
     {
     "name": "Bruce Rosard",
     "folder": "bruce",
