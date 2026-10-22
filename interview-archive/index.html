@@ -2393,104 +2393,58 @@ if (audio) {
 
         async function loadInterviews() {
 
+ 
             try {
-
-                const response =
-                    await fetch(
-                        "interviews.json"
-                    );
-
+                const response = await fetch("interviews.json");
 
                 if (!response.ok) {
-
                     throw new Error(
-                        "Unable to load interviews.json"
+                        `Unable to load interviews.json: HTTP ${response.status}`
                     );
-
                 }
 
+                const data = await response.json();
 
-                const data =
-                    await response.json();
-
-
-                if (
-                    Array.isArray(data)
-                ) {
-
-                    allInterviews =
-                        data;
-
-                }
-
-                else if (
+                if (Array.isArray(data)) {
+                    allInterviews = data;
+                } else if (
                     data &&
-                    Array.isArray(
-                        data.interviews
-                    )
+                    Array.isArray(data.interviews)
                 ) {
-
-                    allInterviews =
-                        data.interviews;
-
-                }
-
-                else {
-
+                    allInterviews = data.interviews;
+                } else {
                     throw new Error(
                         "Invalid interviews.json format"
                     );
-
                 }
 
+                displayInterviews(allInterviews);
 
-                displayInterviews(
-                    allInterviews
-                );
-
-            }
-
-
-            catch (error) {
-
+            } catch (error) {
                 console.error(
                     "Interview loading error:",
                     error
                 );
 
-
                 interviewsGrid.innerHTML = `
-
                     <div class="message-box">
-
-                        <h3>
-                            Unable to load interviews
-                        </h3>
-
+                        <h3>Unable to load interviews</h3>
                         <p>
                             Please check that
                             <strong>interviews.json</strong>
                             is in the same folder as
                             <strong>index.html</strong>.
                         </p>
-
                     </div>
-
                 `;
-
             }
-
         }
 
 
         /* =========================================================
            START
            ========================================================= */
-
         loadInterviews();
-
     </script>
-
 </body>
-
 </html>
