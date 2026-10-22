@@ -1,4 +1,14 @@
+
 [
+  {
+    "name": "Mike Robertson",
+    "folder": "mmiker",
+    "image": "miker.png",
+    "audio": "miker.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.18players.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Mike Robertson from 18 Players.com"
+  },
   {
     "name": "Steve Makris - The Seventh Seat TV Series",
     "folder": "makris",
@@ -8,14 +18,23 @@
     "website": "https://www.theseventhseat.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison and Steve Makris from The Seventh Seat TV Series"
   },
-    {
+  {
     "name": "Michael Tear",
     "folder": "mtear",
     "image": "mtear.png",
     "audio": "mtear.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.wildbear.tv",
-    "description": "Listen to this Travel Radio Australia interview featuring Micheal Tear from Wild Bear TV"
+    "description": "Listen to this Travel Radio Australia interview featuring Michael Tear from Wild Bear TV"
+  },
+  {
+    "name": "Nel Minchin",
+    "folder": "nelminchin",
+    "image": "nelminchin.png",
+    "audio": "nelminchin.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.easytiger.tv",
+    "description": "Listen to this Travel Radio Australia interview featuring Nel Minchin from Easy Tiger Productions"
   },
       {
     "name": "Nel Minchin",
