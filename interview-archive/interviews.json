@@ -28,6 +28,33 @@
     "description": "Listen to this Travel Radio Australia interview featuring Keith McDonnell from EI Travel, Ireland"
   },
       {
+    "name": "Gregoire LaMarche",
+    "folder": "gregla",
+    "image": "gregla.png",
+    "audio": "gregla.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.golfstars.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Gregoire LaMarche from Golf Stars France"
+  },
+   {
+    "name": "Becca Tootil",
+    "folder": "beccat",
+    "image": "beccat.png",
+    "audio": "beccat.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.tourismni.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Becca Tootil from Tourism Northern Ireland"
+  },
+ {
+    "name": "Juanco Sanita Marion",
+    "folder": "swingline",
+    "image": "swingline.png",
+    "audio": "swingline.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.jswingline.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Juanco Sanita Marion from Swingline"
+  },
+      {
     "name": "Fiona Ashton",
     "folder": "fionan",
     "image": "fionan.png",
@@ -45,6 +72,15 @@
     "website": "https://www.palaisdesfestivals.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Regis Fuare from Palais de Festivals"
   },
+   {
+    "name": "Paul O'Dea",
+    "folder": "paulodea",
+    "image": "paulodea.png",
+    "audio": "paulodea.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.ireland.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Paul O'Dea from Ireland Tourism"
+  },
      {
     "name": "Joan Shaw",
     "folder": "joanshaw",
@@ -53,6 +89,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.visitgeorge.co.za",
     "description": "Listen to this Travel Radio Australia interview featuring Joan Shaw from Visit George South Africa"
+  },
+       {
+    "name": "Mark Stack",
+    "folder": "markstack",
+    "image": "markstack.png",
+    "audio": "markstack.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.sspgolf.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Mark Stack from SSP Golf Energy Bars"
   },
        {
     "name": "Peter Loughnane",
