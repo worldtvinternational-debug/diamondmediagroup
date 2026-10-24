@@ -64,13 +64,13 @@
     "description": "Listen to this Travel Radio Australia interview featuring Fiona Ashton from IGTM"
   },
         {
-    "name": "Regis Fuare",
+    "name": "Regis Faure",
     "folder": "regis",
     "image": "regis.png",
     "audio": "regis.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.palaisdesfestivals.com/",
-    "description": "Listen to this Travel Radio Australia interview featuring Regis Fuare from Palais de Festivals"
+    "description": "Listen to this Travel Radio Australia interview featuring Regis Faure from Palais de Festivals"
   },
    {
     "name": "Paul O'Dea",
