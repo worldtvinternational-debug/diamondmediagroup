@@ -18,6 +18,78 @@
     "website": "https://www.theseventhseat.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Geoff Harrison and Steve Makris from The Seventh Seat TV Series"
   },
+    {
+    "name": "Keith McDonnell",
+    "folder": "eitravel",
+    "image": "eitravel.png",
+    "audio": "eitravel.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.eitravelgroup.ie",
+    "description": "Listen to this Travel Radio Australia interview featuring Keith McDonnell from EI Travel, Ireland"
+  },
+      {
+    "name": "Fiona Ashton",
+    "folder": "fionan",
+    "image": "fionan.png",
+    "audio": "fionan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.igtm.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Fiona Ashton from IGTM"
+  },
+        {
+    "name": "Regis Fuare",
+    "folder": "regis",
+    "image": "regis.png",
+    "audio": "regis.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.palaisdesfestivals.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Regis Fuare from Palais de Festivals"
+  },
+     {
+    "name": "Joan Shaw",
+    "folder": "joanshaw",
+    "image": "joanshaw.png",
+    "audio": "joanshaw.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.visitgeorge.co.za",
+    "description": "Listen to this Travel Radio Australia interview featuring Joan Shaw from Visit George South Africa"
+  },
+       {
+    "name": "Peter Loughnane",
+    "folder": "peterl",
+    "image": "peterl.png",
+    "audio": "peterl.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.corkgolfclub.ie",
+    "description": "Listen to this Travel Radio Australia interview featuring Peter Loughnane from Cork Golf Club Ireland"
+  },
+   {
+    "name": "Stephan Gurtler",
+    "folder": "stephan",
+    "image": "stephan.png",
+    "audio": "stephan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.mygolfconcierge.travel",
+    "description": "Listen to this Travel Radio Australia interview featuring Stephan Gurtler from My Golf Concierge Austria"
+  },
+   {
+    "name": "Lizle De Vet",
+    "folder": "lizle",
+    "image": "lizle.png",
+    "audio": "lizle.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.adoreafrica.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Lizle De Vet from Adore Africa"
+  },
+     {
+    "name": "Stefan Katter",
+    "folder": "steffan",
+    "image": "steffan.png",
+    "audio": "steffan.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.golfscape.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Stefan Katter from Golfscape"
+  },
   {
     "name": "Michael Tear",
     "folder": "mtear",
@@ -28,15 +100,6 @@
     "description": "Listen to this Travel Radio Australia interview featuring Michael Tear from Wild Bear TV"
   },
   {
-    "name": "Nel Minchin",
-    "folder": "nelminchin",
-    "image": "nelminchin.png",
-    "audio": "nelminchin.mp3",
-    "transcript": "transcript.pdf",
-    "website": "https://www.easytiger.tv",
-    "description": "Listen to this Travel Radio Australia interview featuring Nel Minchin from Easy Tiger Productions"
-  },
-      {
     "name": "Nel Minchin",
     "folder": "nelminchin",
     "image": "nelminchin.png",
