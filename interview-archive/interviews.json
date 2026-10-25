@@ -91,6 +91,15 @@
     "description": "Listen to this Travel Radio Australia interview featuring Joan Shaw from Visit George South Africa"
   },
        {
+    "name": "Elsa Maria Honeker",
+    "folder": "elsamaria",
+    "image": "elsamaria.png",
+    "audio": "elsamaria.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.seazentravel.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Elsa Maria Honeker from SeaZen Travel Austria"
+  },
+       {
     "name": "Mark Stack",
     "folder": "markstack",
     "image": "markstack.png",
@@ -107,6 +116,15 @@
     "transcript": "transcript.pdf",
     "website": "https://www.corkgolfclub.ie",
     "description": "Listen to this Travel Radio Australia interview featuring Peter Loughnane from Cork Golf Club Ireland"
+  },
+     {
+    "name": "Sean Coyle",
+    "folder": "seancoyle",
+    "image": "seancoyle.png",
+    "audio": "seancoyle.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.seancoylegolfevents.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Sean Coyle from Sean Coyle Golf Events."
   },
    {
     "name": "Stephan Gurtler",
@@ -134,6 +152,24 @@
     "transcript": "transcript.pdf",
     "website": "https://www.golfscape.com",
     "description": "Listen to this Travel Radio Australia interview featuring Stefan Katter from Golfscape"
+  },
+   {
+    "name": "John Eggleston",
+    "folder": "johneggleston",
+    "image": "johneggleston.png",
+    "audio": "johneggleston.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.ballybuniongolfclub.com",
+    "description": "Listen to this Travel Radio Australia interview featuring John Eggleston from Ballybunion Golf Club Ireland"
+  },
+    {
+    "name": "Avin Jain",
+    "folder": "avinjain",
+    "image": "avinjain.png",
+    "audio": "avinjain.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.toursforus.com",
+    "description": "Listen to this Travel Radio Australia interview featuring Avin Jain from Tours For Us India"
   },
   {
     "name": "Michael Tear",
