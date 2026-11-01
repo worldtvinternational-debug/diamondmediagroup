@@ -1398,3 +1398,16 @@ margin-top:10px;
 }
 
 }
+.news-photo {
+    max-width: 900px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.news-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
