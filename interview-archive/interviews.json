@@ -1,6 +1,33 @@
 
 [
   {
+    "name": "Erik Neergaard",
+    "folder": "ericn",
+    "image": "ericn.png",
+    "audio": "ericn.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://thgcreative.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Erik Neergaard from THG Creative"
+  }, 
+     {
+    "name": "Sergio Ferrari",
+    "folder": "sergiof",
+    "image": "sergiof.png",
+    "audio": "sergiof.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.industrialfrigoice.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Sergio Ferrari from Industrial Frigo Ice"
+  },
+     {
+    "name": "Ivars Beitans",
+    "folder": "ivarsb",
+    "image": "ivarsb.png",
+    "audio": "ivarsb.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://siguldaadventures.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Ivars Beitans from Aerodium"
+  },
+  {
     "name": "Mike Robertson",
     "folder": "miker",
     "image": "miker.png",
