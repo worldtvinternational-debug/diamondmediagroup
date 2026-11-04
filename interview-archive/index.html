@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,6 @@
 <title>Travel Radio Australia | Interview Archive</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 <style>
 :root {
     --navy:#1d2938;
@@ -23,7 +21,6 @@
 }
 
 * { box-sizing:border-box; }
-
 html { scroll-behavior:smooth; }
 
 body {
@@ -360,9 +357,7 @@ footer {
     .hero-content h1 { font-size:2.25rem; }
 }
 </style>
-</head>
-
-<body>
+    <body>
 
 <header class="archive-hero">
 <div class="hero-container">
@@ -455,7 +450,6 @@ aria-label="Search interviews">
 
 <div id="modalBackdrop" class="modal-backdrop">
 <div class="modal-box">
-
 <button id="modalClose" class="modal-close"
 type="button" aria-label="Close">&times;</button>
 
@@ -487,7 +481,6 @@ const modalTitle = document.getElementById("modalTitle");
 const embedCode = document.getElementById("embedCode");
 const modalCopy = document.getElementById("modalCopy");
 
-
 /* INTERVIEW DETAILS */
 
 function getInterviewName(interview) {
@@ -502,11 +495,9 @@ function getInterviewWebsite(interview) {
     return interview.website || interview.url || "";
 }
 
-
 /* IMAGE PATHS AND CACHE REFRESH */
 
 function getInterviewImage(interview) {
-
     const image = (
         interview.image ||
         interview.imageFile ||
@@ -536,7 +527,6 @@ function getInterviewImage(interview) {
     return [...new Set(paths)];
 }
 
-
 /* AUDIO PATHS */
 
 function getInterviewAudio(interview) {
@@ -544,7 +534,6 @@ function getInterviewAudio(interview) {
     const audio = interview.audio || interview.audioFile || "";
 
     if (!audio) return "";
-
     if (/^(https?:\/\/|data:|\/)/i.test(audio)) return audio;
 
     if (interview.folder) {
@@ -554,7 +543,6 @@ function getInterviewAudio(interview) {
 
     return "../travelradio/interviews/" + audio;
 }
-
 
 /* TRANSCRIPT PATHS */
 
@@ -575,22 +563,18 @@ function getInterviewTranscript(interview) {
     return "../travelradio/interviews/" + transcript;
 }
 
-
 /* CACHE BUSTER */
 
 function freshUrl(url) {
     return url + (url.includes("?") ? "&" : "?") +
         "v=20261104";
 }
-
-
-/* WAVEFORM */
+    /* WAVEFORM */
 
 function createWaveform() {
 
     const waveform = document.createElement("div");
     waveform.className = "waveform";
-
     const bars = document.createElement("div");
     bars.className = "waveform-bars";
 
@@ -664,7 +648,6 @@ function displayInterviews(interviews) {
             let imageIndex = 0;
 
             function tryNextImage() {
-
                 if (imageIndex >= imagePaths.length) {
                     imageBox.innerHTML = `
                         <div style="padding:20px;text-align:center;color:#647181;">
@@ -806,7 +789,6 @@ function displayInterviews(interviews) {
         /* DOWNLOAD INTERVIEW */
 
         if (audio) {
-
             const downloadInterview = document.createElement("a");
             downloadInterview.className = "card-btn btn-download";
             downloadInterview.href = audio;
@@ -903,7 +885,6 @@ function displayInterviews(interviews) {
         });
 
         actions.appendChild(embedButton);
-
         content.appendChild(actions);
         card.appendChild(content);
         interviewsGrid.appendChild(card);
@@ -911,16 +892,13 @@ function displayInterviews(interviews) {
     });
 
 }
-
-
-/* SEARCH */
+    /* SEARCH */
 
 searchInput.addEventListener("input", function() {
 
     const searchTerm = this.value.toLowerCase().trim();
 
     const filtered = allInterviews.filter(interview => {
-
         const name = getInterviewName(interview).toLowerCase();
         const description = getInterviewDescription(interview).toLowerCase();
         const website = getInterviewWebsite(interview).toLowerCase();
@@ -946,82 +924,73 @@ modalBackdrop.addEventListener("click", function(event) {
     }
 });
 
-
-/* COPY EMBED CODE */
-
 modalCopy.addEventListener("click", async function() {
 
     try {
         await navigator.clipboard.writeText(embedCode.value);
-
         modalCopy.innerHTML =
-            '<i class="bi bi-check"></i> Copied';
-
-        setTimeout(() => {
-            modalCopy.innerHTML =
-                '<i class="bi bi-clipboard"></i> Copy Embed Code';
-        }, 1500);
-
+            '<i class="bi bi-check"></i> Copied!';
     } catch (error) {
         embedCode.select();
         document.execCommand("copy");
+        modalCopy.textContent = "Copied!";
     }
 });
 
 
-/* LOAD INTERVIEWS - FORCE FRESH JSON */
+/* LOAD INTERVIEWS */
 
 async function loadInterviews() {
 
     try {
 
-        const response = await fetch(
-            "interviews.json?v=" + Date.now(),
-            { cache: "no-store" }
-        );
+        const response = await fetch("./interviews.json?v=20261104", {
+            cache: "no-store"
+        });
 
         if (!response.ok) {
-            throw new Error(
-                "Unable to load interviews.json: HTTP " + response.status
-            );
+            throw new Error("Unable to load interviews.json");
         }
 
         const data = await response.json();
 
-        if (Array.isArray(data)) {
-            allInterviews = data;
-        } else if (data && Array.isArray(data.interviews)) {
-            allInterviews = data.interviews;
-        } else {
-            throw new Error("Invalid interviews.json format");
-        }
+        allInterviews = Array.isArray(data)
+            ? data
+            : (data.interviews || []);
 
         displayInterviews(allInterviews);
 
-        console.log(
-            "Travel Radio Australia archive loaded:",
-            allInterviews.length,
-            "interviews"
-        );
+        /* OPEN DIRECT INTERVIEW LINK */
+
+        if (window.location.hash) {
+            setTimeout(() => {
+                const target = document.getElementById(
+                    decodeURIComponent(window.location.hash.substring(1))
+                );
+
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+                }
+            }, 300);
+        }
 
     } catch (error) {
 
-        console.error("Interview loading error:", error);
+        console.error("Archive loading error:", error);
 
         interviewsGrid.innerHTML = `
             <div class="message-box">
                 <h3>Unable to load interviews</h3>
-                <p>
-                    Please check that interviews.json is in the same
-                    folder as index.html.
-                </p>
-                <p>${error.message}</p>
+                <p>Please refresh the page and try again.</p>
             </div>`;
     }
 }
 
 
-/* START */
+/* START ARCHIVE */
 
 loadInterviews();
 
@@ -1029,4 +998,4 @@ loadInterviews();
 
 </body>
 </html>
-```
+</head>
