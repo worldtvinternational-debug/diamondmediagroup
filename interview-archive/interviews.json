@@ -18,7 +18,7 @@
     "website": "https://www.referox.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Nick van Thull and Xavier Houben from ReFerox F1 racing simulators"
   },
-       {
+    {
     "name": "Diego Di Tomasso",
     "folder": "diegod",
     "image": "diegod.png",
@@ -27,7 +27,7 @@
     "website": "https://www.overthereality.ai/",
     "description": "Listen to this Travel Radio Australia interview featuring Diego Di Tomasso from Over The Reality"
   },
-       {
+   {
     "name": "Vasco Santos",
     "folder": "vasco",
     "image": "vasco.png",
