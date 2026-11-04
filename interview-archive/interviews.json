@@ -17,6 +17,33 @@
     "transcript": "transcript.pdf",
     "website": "https://www.referox.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Nick van Thull and Xavier Houben from ReFerox F1 racing simulators"
+  },
+       {
+    "name": "Diego Di Tomasso",
+    "folder": "diegod",
+    "image": "diegod.png",
+    "audio": "diegod.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.overthereality.ai/",
+    "description": "Listen to this Travel Radio Australia interview featuring Diego Di Tomasso from Over The Reality"
+  },
+       {
+    "name": "Vasco Santos",
+    "folder": "vasco",
+    "image": "vasco.png",
+    "audio": "vasco.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.ingka.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Vasco Santos from Ingka Worldwide"
+  },
+        {
+    "name": "Julie Fiztsimmins",
+    "folder": "julief",
+    "image": "julief.png",
+    "audio": "julief.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.lodestaruk.com/",
+    "description": "Listen to this Travel Radio Australia interview featuring Julie Fiztsimmins from Lodestar UK"
   }, 
      {
     "name": "Sergio Ferrari",
