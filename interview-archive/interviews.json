@@ -582,8 +582,8 @@
     "image": "hoff.png",
     "audio": "hoff.mp3",
     "transcript": "transcript.pdf",
-    "website": "https://www.imdb.com/name/nm0001327/",
-    "description": "Listen to this Travel Radio Australia interview featuring actor David Hasselhoff with SKI TV' Geoff Harrison"
+    "website": "https://www.youtube.com/watch?v=CW6TpMkP8H4&t=10s",
+    "description": "Listen to this Travel Radio Australia interview featuring actor David Hasselhoff with SKI TV's Geoff Harrison"
    },    
     {
     "name": "Isidoro Manzanares Nieto",
@@ -613,13 +613,13 @@
     "description": "Listen to this Travel Radio Australia interview featuring actor Johnathon Coote"
    },    
    {
-    "name": "Professor Hubert Schwetzler",
+    "name": "Professor Hubert Schwärzler",
     "folder": "hubert",
     "image": "hubert.png",
     "audio": "hubert.mp3",
     "transcript": "transcript.pdf",
     "website": "https://www.laloupe.com/stories/sehnsucht-nach-langsamkeit",
-    "description": "Listen to this SKI TV interview featuring Professor Hubert Schwetzler from Lech Ski Resort Austria"
+    "description": "Listen to this SKI TV interview featuring Professor Hubert Schwärzler from Lech Ski Resort Austria"
    },    
     {
     "name": "Mark Hembrow",
