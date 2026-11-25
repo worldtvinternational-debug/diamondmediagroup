@@ -9,6 +9,15 @@
     "website": "https://thgcreative.com/",
     "description": "Listen to this Travel Radio Australia interview featuring Erik Neergaard from THG Creative"
   },
+    {
+    "name": "Pankaj Taneja",
+    "folder": "pankaj",
+    "image": "pankaj.png",
+    "audio": "pankaj.mp3",
+    "transcript": "transcript.pdf",
+    "website": "https://www.pankajtaneja.eu/",
+    "description": "Listen to this Travel Radio Australia interview featuring Pankaj Taneja from Pankaj Teneja EU"
+},
       {
     "name": "Nick van Thull and Xavier Houben",
     "folder": "nickv",
